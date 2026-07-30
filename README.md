@@ -1,5 +1,7 @@
 # Project HEIMDALL ELECTRA
 
+Project credit and stewardship: Aarti S Ravikumar (GitHub: @aartisr).
+
 > A reproducible research foundation for testing a high-risk hypothesis: whether passive electromagnetic sensing could reveal ionospheric plasma-wake signatures associated with small, charged orbital debris.
 
 ## Status — read this first
