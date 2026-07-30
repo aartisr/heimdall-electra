@@ -1,0 +1,24 @@
+{
+  "registry_version": "source-registry/0.1.0",
+  "sources": [
+    {
+      "approval_id": "approval-noaa-swpc-k-index-context-001",
+      "source_id": "noaa-swpc-planetary-k-index",
+      "kind": "public_archive",
+      "owner": "NOAA Space Weather Prediction Center",
+      "terms_reference": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+      "approved": true,
+      "allowed_evidence_classes": ["external_context"],
+      "allowed_verification_schemes": ["https_tls_transport"],
+      "endpoint_id": "planetary_k_index_1m.json",
+      "uri": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+      "allowed_hosts": ["services.swpc.noaa.gov"],
+      "max_bytes": 2000000,
+      "media_type": "application/json",
+      "permitted_purposes": ["environmental_context"],
+      "review_reference": "docs/OFFICIAL_CONTEXT_SOURCES.md",
+      "time_contract_status": "unapproved: provider time-tag basis and uncertainty not yet source-verified"
+    }
+  ]
+}
+

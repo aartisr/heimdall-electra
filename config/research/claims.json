@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "claim_id": "synthetic-software-controls",
+      "statement": "The repository implements tested synthetic research controls for provenance, gating, uncertainty accounting, custody declarations, and local audit bundles.",
+      "scope": "software",
+      "status": "supported",
+      "evidence_classes": ["synthetic"],
+      "evidence_references": [
+        "docs/HEIMDALL_START_HERE.md",
+        "docs/AUDIT_BUNDLES.md",
+        "docs/UNCERTAINTY_BUDGET.md"
+      ],
+      "limitation": "This supports a software-control claim only; it does not validate plasma-wake physics or demonstrate on-orbit detection."
+    },
+    {
+      "claim_id": "physical-wake-performance",
+      "statement": "The project has demonstrated physically valid plasma-wake detection performance.",
+      "scope": "scientific",
+      "status": "unsupported",
+      "evidence_classes": [],
+      "evidence_references": [],
+      "limitation": "No physics-capable forward model or independent validation evidence has been admitted."
+    },
+    {
+      "claim_id": "observed-debris-detection",
+      "statement": "The project has observed and identified an orbital-debris plasma wake.",
+      "scope": "observed_detection",
+      "status": "prohibited",
+      "evidence_classes": [],
+      "evidence_references": [],
+      "limitation": "No approved observed Heimdall instrument data, time alignment, independent review, or scientific validation exists."
+    },
+    {
+      "claim_id": "operational-safety-use",
+      "statement": "The project may inform collision avoidance, maneuvering, or safety decisions.",
+      "scope": "operational",
+      "status": "prohibited",
+      "evidence_classes": [],
+      "evidence_references": [],
+      "limitation": "This research foundation is not an operational safety system and has no maneuver authority."
+    }
+  ]
+}

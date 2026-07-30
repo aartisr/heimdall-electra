@@ -1,0 +1,44 @@
+{
+  "registry_version": "model-registry/0.1.0",
+  "models": [
+    {
+      "model_id": "illustrative-burst-sine",
+      "model_version": "0.1.0",
+      "validity_tier": "fixture_only",
+      "purpose": "Exercise waveform, detector, provenance, and regression interfaces.",
+      "assumptions": [
+        "A finite sine burst is an adequate software fixture.",
+        "No plasma, charge, geometry, material, magnetic-field, or sensor physics is represented."
+      ],
+      "excluded_claims": [
+        "Not a plasma-wake model.",
+        "Not a debris-detection sensitivity model.",
+        "Not valid for laboratory or flight prediction."
+      ],
+      "verification_evidence": [
+        "Deterministic regression tests only."
+      ],
+      "card_reference": "docs/FORWARD_MODEL_GOVERNANCE.md"
+    },
+    {
+      "model_id": "null-signal-model",
+      "model_version": "0.1.0",
+      "validity_tier": "fixture_only",
+      "purpose": "Provide a zero-signal negative control for pipeline testing.",
+      "assumptions": [
+        "Signal component is exactly zero.",
+        "Noise and interference remain scenario-owned."
+      ],
+      "excluded_claims": [
+        "Not a quiet-ionosphere model.",
+        "Not a physical null measurement.",
+        "Not valid for laboratory or flight prediction."
+      ],
+      "verification_evidence": [
+        "Deterministic regression tests only."
+      ],
+      "card_reference": "docs/FORWARD_MODEL_GOVERNANCE.md"
+    }
+  ]
+}
+

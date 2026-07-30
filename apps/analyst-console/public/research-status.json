@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-07-30T00:00:00Z",
+  "scientificStatus": "Synthetic research foundation only \u2014 no observed debris detection, track, collision prediction, or maneuver authority.",
+  "limitation": "This snapshot is derived from versioned project registries. It is read-only and not the system of record.",
+  "sources": [
+    {
+      "id": "noaa-swpc-planetary-k-index",
+      "evidence_class": "external_context",
+      "purpose": "environmental_context",
+      "status": "active",
+      "limitation": "unapproved: provider time-tag basis and uncertainty not yet source-verified"
+    },
+    {
+      "id": "synthetic forward-model registry",
+      "evidence_class": "synthetic",
+      "purpose": "development and locked-fixture evaluation",
+      "status": "active",
+      "limitation": "2 registered model cards; all are fixture_only and cannot support physical or flight claims; 0 physics-model admissions"
+    },
+    {
+      "id": "calibration certificate registry",
+      "evidence_class": "laboratory, observed",
+      "purpose": "traceable L0-to-L1 measurement-chain calibration",
+      "status": "inactive",
+      "limitation": "No laboratory or flight calibration certificate has been admitted. Synthetic fixture calibration remains separate and cannot be relabeled as traceable instrument calibration."
+    }
+  ],
+  "gates": [
+    {
+      "stage": "Synthetic vertical slice",
+      "status": "complete",
+      "condition": "Provenance, calibration, detector, gates, ledger, source boundaries, and uncertainty contract are tested. Limitation: Synthetic fixtures and software controls only; no physical wake validation."
+    },
+    {
+      "stage": "Physics-capable forward model",
+      "status": "in_progress",
+      "condition": "Requires an approved model admission, documented analytic/PIC model, and independent verification evidence. Limitation: Only fixture-only forward models are registered; no physics model is admitted."
+    },
+    {
+      "stage": "Observed-data alignment",
+      "status": "blocked",
+      "condition": "Requires approved sources, stronger verification, and reviewed time contracts. Limitation: The NOAA context time contract is not approved; no observed Heimdall data source exists."
+    }
+  ],
+  "claims": [
+    {
+      "statement": "The repository implements tested synthetic research controls for provenance, gating, uncertainty accounting, custody declarations, and local audit bundles.",
+      "scope": "software",
+      "status": "supported",
+      "limitation": "This supports a software-control claim only; it does not validate plasma-wake physics or demonstrate on-orbit detection."
+    },
+    {
+      "statement": "The project has demonstrated physically valid plasma-wake detection performance.",
+      "scope": "scientific",
+      "status": "unsupported",
+      "limitation": "No physics-capable forward model or independent validation evidence has been admitted."
+    },
+    {
+      "statement": "The project has observed and identified an orbital-debris plasma wake.",
+      "scope": "observed_detection",
+      "status": "prohibited",
+      "limitation": "No approved observed Heimdall instrument data, time alignment, independent review, or scientific validation exists."
+    },
+    {
+      "statement": "The project may inform collision avoidance, maneuvering, or safety decisions.",
+      "scope": "operational",
+      "status": "prohibited",
+      "limitation": "This research foundation is not an operational safety system and has no maneuver authority."
+    }
+  ]
+}

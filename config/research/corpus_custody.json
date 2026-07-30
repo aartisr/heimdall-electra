@@ -1,0 +1,10 @@
+{
+  "registry_version": "synthetic-registry/0.2.0",
+  "current_status": "consumed_demonstration",
+  "custody_reference": "The current fixtures are stored in the project repository and have already been inspected during development.",
+  "independently_held": false,
+  "fresh": false,
+  "allowed_claim": "software regression and demonstration only",
+  "prohibited_claim": "fresh locked validation or independent performance evidence"
+}
+

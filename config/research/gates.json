@@ -1,0 +1,43 @@
+{
+  "scientific_status": "Synthetic research foundation only — no observed debris detection, track, collision prediction, or maneuver authority.",
+  "limitation": "This snapshot is derived from versioned project registries. It is read-only and not the system of record.",
+  "gates": [
+    {
+      "gate_id": "synthetic-vertical-slice",
+      "stage": "Synthetic vertical slice",
+      "status": "complete",
+      "condition": "Provenance, calibration, detector, gates, ledger, source boundaries, and uncertainty contract are tested."
+      ,
+      "evidence_references": [
+        "docs/HEIMDALL_START_HERE.md",
+        "docs/EXPERIMENT_LEDGER.md",
+        "docs/UNCERTAINTY_BUDGET.md"
+      ],
+      "limitation": "Synthetic fixtures and software controls only; no physical wake validation."
+    },
+    {
+      "gate_id": "physics-capable-forward-model",
+      "stage": "Physics-capable forward model",
+      "status": "in_progress",
+      "condition": "Requires an approved model admission, documented analytic/PIC model, and independent verification evidence.",
+      "evidence_references": [
+        "docs/PHYSICS_MODEL_ADMISSION.md",
+        "docs/PHYSICS_MODEL_VALIDATION.md",
+        "docs/PHYSICS_BENCHMARKS.md",
+        "docs/EXPERIMENT_PROTOCOL.md"
+      ],
+      "limitation": "Only fixture-only forward models are registered; no physics model is admitted."
+    },
+    {
+      "gate_id": "observed-data-alignment",
+      "stage": "Observed-data alignment",
+      "status": "blocked",
+      "condition": "Requires approved sources, stronger verification, and reviewed time contracts.",
+      "evidence_references": [
+        "docs/SOURCE_REGISTRY_GOVERNANCE.md",
+        "docs/CONTEXT_ALIGNMENT_GOVERNANCE.md"
+      ],
+      "limitation": "The NOAA context time contract is not approved; no observed Heimdall data source exists."
+    }
+  ]
+}
