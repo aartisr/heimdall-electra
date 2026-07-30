@@ -1,8 +1,8 @@
-# Project Heimdall — data sourcing and integrity strategy
+# Project Heimdall Electra — data sourcing and integrity strategy
 
 ## The honest rule
 
-Heimdall must not claim that a public catalog, simulated event, or ML score is a debris detection. Only a fully traceable chain of calibrated Heimdall measurements, independently tested against plausible alternative explanations, can support that claim.
+Heimdall Electra must not claim that a public catalog, simulated event, or ML score is a debris detection. Only a fully traceable chain of calibrated Heimdall Electra measurements, independently tested against plausible alternative explanations, can support that claim.
 
 Use public and partner data in three distinct roles:
 
@@ -16,7 +16,7 @@ Never train and evaluate a detector on labels derived from the same system or mo
 
 | Tier | Data source | Primary use | Authenticity rule |
 |---|---|---|---|
-| A | Heimdall instrument L0 raw data | primary scientific evidence | Digitally signed at the node, immutable at ingest, complete loss accounting, calibrated and replayable |
+| A | Heimdall Electra instrument L0 raw data | primary scientific evidence | Digitally signed at the node, immutable at ingest, complete loss accounting, calibrated and replayable |
 | A | Controlled laboratory/HIL injection experiments | sensor and pipeline calibration | Traceable source, independent timing reference, blinded labels for analyst evaluation |
 | B | Independent in-orbit/reference observations under formal agreement | confirmation and disconfirmation | Preserve provider provenance, access terms, measurement uncertainty, and matching protocol |
 | B | NASA ODPO/ORDEM data and authorized debris products | population priors, engineering benchmark, coverage/risk context | Cite exact release/version and do not treat model output as event truth |
@@ -38,7 +38,7 @@ NASA’s Orbital Debris Program Office describes ORDEM as an engineering debris-
 6. Release a curated, access-controlled analysis copy only after automated checks and a recorded review. Keep raw, restricted, and public zones physically/logically separate.
 7. Preserve retractions, corrections, and supersessions from each provider. A downstream product must update its provenance and validity state rather than overwrite history.
 
-## Heimdall primary-data requirements
+## Heimdall Electra primary-data requirements
 
 Each node must generate L0 records containing signed waveform payloads, sample-rate and ADC configuration, sensor serial/response, calibration state, monotonic sequence number, local clock state/uncertainty, node ephemeris/attitude version, power/thermal/health state, gap/loss indicators, and edge software/configuration digest.
 

@@ -1,12 +1,15 @@
 import { createRootRoute, createRoute, createRouter, Outlet } from "@tanstack/react-router";
+import { siteConfig } from "./site-config";
 import { EvidenceConsole } from "./views/evidence-console";
 
 const rootRoute = createRootRoute({
   component: () => (
-    <main>
+    <main id="main-content">
+      <a className="skip-link" href="#evidence-status">Skip to research status</a>
       <header className="site-header">
-        <p className="eyebrow">Project Heimdall</p>
-        <h1>Research Evidence Console</h1>
+        <p className="eyebrow">{siteConfig.projectName}</p>
+        <h1>{siteConfig.productName}</h1>
+        <p className="header-summary">{siteConfig.shortDescription}</p>
       </header>
       <Outlet />
     </main>
@@ -28,4 +31,3 @@ declare module "@tanstack/react-router" {
     router: typeof router;
   }
 }
-

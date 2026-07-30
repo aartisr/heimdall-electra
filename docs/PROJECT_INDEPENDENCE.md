@@ -1,10 +1,10 @@
 # Project independence boundary
 
-Project Heimdall is an independent research project rooted at the NASA directory. It must not import, execute, read, write, or depend on the neighbouring SALUS, Laureate, or other workspace projects.
+Project Heimdall Electra is an independent research project. It must not import, execute, read, write, or depend on neighbouring workspace projects.
 
 ## Enforced boundaries
 
-- The NASA directory is its own Git repository on the main branch.
+- This project root is its own Git repository.
 - Runtime code uses only the Python standard library at this stage.
 - The project has no workspace package manager, relative sibling path, symbolic-link, service, database, or shared build dependency.
 - All source, tests, scripts, fixtures, documentation, and generated research artifacts belong below this project root.
@@ -22,4 +22,3 @@ Run the boundary check before every release and in CI:
     PYTHONPATH=src python3 scripts/verify_independence.py
 
 The check rejects forbidden workspace references, symbolic links, and non-standard-library imports in the current reference implementation. It complements, but does not replace, code review and dependency/SBOM review when external packages are introduced.
-

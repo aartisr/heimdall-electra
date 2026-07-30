@@ -1,8 +1,8 @@
-# Project Heimdall — staged implementation plan
+# Project Heimdall Electra — staged implementation plan
 
 ## Mission framing and design principle
 
-Project Heimdall investigates whether passive VLF electromagnetic and electrostatic sensing can detect ionospheric plasma-wake signatures associated with charged, hypervelocity sub-10-cm orbital debris. The proposal calls for passive tri-axial electric and magnetic sensing on 3U CubeSat nodes, edge noise reduction and wavelet matched filtering, multi-node TDOA/FDOA inversion, and an ORDEM-compatible traffic-data product.
+Project Heimdall Electra investigates whether passive VLF electromagnetic and electrostatic sensing can detect ionospheric plasma-wake signatures associated with charged, hypervelocity sub-10-cm orbital debris. The proposal calls for passive tri-axial electric and magnetic sensing on 3U CubeSat nodes, edge noise reduction and wavelet matched filtering, multi-node TDOA/FDOA inversion, and an ORDEM-compatible traffic-data product.
 
 This is a high-risk research hypothesis, not an established detection modality. Every physical, detection, coverage, and latency assertion must therefore be a versioned, falsifiable claim. The system must preserve source evidence, propagate uncertainty, and return insufficient evidence safely. It must not turn a correlation into a debris track or maneuver recommendation without independently validated promotion criteria.
 

@@ -1,0 +1,5 @@
+# This console contains public, non-sensitive research-status metadata.
+# Change this policy if a deployment is access-controlled or contains material
+# that must not be indexed.
+User-agent: *
+Allow: /

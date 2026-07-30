@@ -39,7 +39,7 @@
     {
       "stage": "Observed-data alignment",
       "status": "blocked",
-      "condition": "Requires approved sources, stronger verification, and reviewed time contracts. Limitation: The NOAA context time contract is not approved; no observed Heimdall data source exists."
+      "condition": "Requires approved sources, stronger verification, and reviewed time contracts. Limitation: The NOAA context time contract is not approved; no observed Heimdall Electra data source exists."
     }
   ],
   "claims": [
@@ -59,7 +59,7 @@
       "statement": "The project has observed and identified an orbital-debris plasma wake.",
       "scope": "observed_detection",
       "status": "prohibited",
-      "limitation": "No approved observed Heimdall instrument data, time alignment, independent review, or scientific validation exists."
+      "limitation": "No approved observed Heimdall Electra instrument data, time alignment, independent review, or scientific validation exists."
     },
     {
       "statement": "The project may inform collision avoidance, maneuvering, or safety decisions.",

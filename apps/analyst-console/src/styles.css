@@ -1,13 +1,19 @@
 :root { color: #eef5f5; background: #091617; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
 * { box-sizing: border-box; }
-body { margin: 0; }
+body { margin: 0; min-width: 20rem; line-height: 1.5; }
+.skip-link { position: absolute; left: -9999px; top: .5rem; z-index: 2; background: #fff; color: #092021; padding: .7rem 1rem; }
+.skip-link:focus { left: .5rem; }
 .site-header, .content { max-width: 1120px; margin: 0 auto; padding: 1.5rem; }
 .site-header { border-bottom: 1px solid #244143; }
 .eyebrow { color: #8fd3c9; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; margin: 0; }
 h1 { margin: .25rem 0 0; font-size: clamp(1.8rem, 4vw, 3rem); }
 h2 { margin-top: 2rem; }
+.header-summary { color: #b8cdcd; margin: .5rem 0 0; max-width: 46rem; }
+.content:focus { outline: 3px solid #8fd3c9; outline-offset: -3px; }
 .notice { display: grid; gap: .45rem; border-left: 4px solid #f5c76d; background: #172b2c; padding: 1rem; }
+.table-wrap { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; background: #102223; }
+caption { text-align: left; color: #b8cdcd; padding: .75rem 0; }
 th, td { text-align: left; padding: .75rem; vertical-align: top; border-bottom: 1px solid #244143; }
 th { color: #8fd3c9; }
 .gates, .claims { display: grid; gap: .75rem; list-style: none; padding: 0; }
@@ -20,5 +26,17 @@ th { color: #8fd3c9; }
 .unsupported { background: #9a6d22; }
 .prohibited { background: #864846; }
 .error { color: #ffb4ad; }
+button { background: #8fd3c9; border: 0; border-radius: .25rem; color: #092021; cursor: pointer; font: inherit; font-weight: 700; padding: .55rem .8rem; }
+button:hover { background: #b7eee7; }
+button:focus-visible, .table-wrap:focus-visible { outline: 3px solid #f5c76d; outline-offset: 3px; }
 .snapshot { color: #b8cdcd; font-size: .9rem; }
-@media (max-width: 700px) { .gates li, .claims li { grid-template-columns: 1fr; gap: .3rem; } table { font-size: .85rem; } }
+@media (max-width: 700px) {
+  .site-header, .content { padding: 1rem; }
+  .gates li, .claims li { grid-template-columns: 1fr; gap: .3rem; }
+  .table-wrap { overflow: visible; }
+  table, thead, tbody, tr, th, td { display: block; }
+  thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  tr { border-bottom: 1px solid #244143; padding: .6rem 0; }
+  td { border: 0; display: grid; gap: .2rem; grid-template-columns: minmax(7rem, .35fr) 1fr; padding: .35rem .75rem; }
+  td::before { color: #8fd3c9; content: attr(data-label); font-weight: 700; }
+}

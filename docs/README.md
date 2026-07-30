@@ -1,6 +1,6 @@
 # NASA documentation
 
-## Project Heimdall
+## Project Heimdall Electra
 
 - [Original proposal](NASAProjectProposal.pdf)
 - [Start here: first implementation milestone and four-week plan](HEIMDALL_START_HERE.md)

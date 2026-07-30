@@ -6,7 +6,7 @@ External environmental context becomes useful only when it can be associated wit
 
 ## Conservative default
 
-The current NOAA parser preserves provider time tags but does not assert their time basis or clock uncertainty. Therefore, no NOAA record is currently eligible for automatic alignment to Heimdall observations.
+The current NOAA parser preserves provider time tags but does not assert their time basis or clock uncertainty. Therefore, no NOAA record is currently eligible for automatic alignment to Heimdall Electra observations.
 
 A SourceTimeContract must be approved before joining any source. It declares:
 

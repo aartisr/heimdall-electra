@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Observed Heimdall evidence must enter through a fail-closed signed-frame boundary. A frame declares its source, node, instrument serial, acquisition time, payload, signer key ID, and detached signature. A deployment-specific verifier port must confirm the exact frame payload against approved key material before the bytes are stored as observed evidence.
+Observed Heimdall Electra evidence must enter through a fail-closed signed-frame boundary. A frame declares its source, node, instrument serial, acquisition time, payload, signer key ID, and detached signature. A deployment-specific verifier port must confirm the exact frame payload against approved key material before the bytes are stored as observed evidence.
 
 ## Enforced controls
 
@@ -14,4 +14,4 @@ The decoder is a Strategy port. It must verify that the acquisition manifest has
 
 ## Deliberate limitation
 
-There is no bundled crypto verifier and no registered observed Heimdall source. A test double only proves that the fail-closed integration contract behaves correctly; it does not authenticate any instrument. A real deployment must provide a reviewed verifier adapter with hardware-backed or otherwise governed key management, certificate/revocation handling, hardware-counter/replay protection, time-quality checks, and an approved instrument source record.
+There is no bundled crypto verifier and no registered observed Heimdall Electra source. A test double only proves that the fail-closed integration contract behaves correctly; it does not authenticate any instrument. A real deployment must provide a reviewed verifier adapter with hardware-backed or otherwise governed key management, certificate/revocation handling, hardware-counter/replay protection, time-quality checks, and an approved instrument source record.

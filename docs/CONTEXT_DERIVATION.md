@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The context derivation layer converts preserved official bytes into validated environmental annotations. It is a separate bounded context from science detection. Its output supports later experiment stratification and confounder analysis; it cannot create a Heimdall detection, a debris label, a track, or a risk product.
+The context derivation layer converts preserved official bytes into validated environmental annotations. It is a separate bounded context from science detection. Its output supports later experiment stratification and confounder analysis; it cannot create a Heimdall Electra detection, a debris label, a track, or a risk product.
 
 ## Current NOAA adapter
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Heimdall must treat uncertainty as a first-class product, not a note added after a result. This contract records the nominal quantity, unit, each standard-uncertainty component, uncertainty type, assumed distribution, evidence reference, correlation status, and output interval.
+Heimdall Electra must treat uncertainty as a first-class product, not a note added after a result. This contract records the nominal quantity, unit, each standard-uncertainty component, uncertainty type, assumed distribution, evidence reference, correlation status, and output interval.
 
 ## Current capability
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The model registry is the approval boundary for every synthetic forward model. A model cannot generate Heimdall synthetic data merely because it implements the ForwardModel interface. It must resolve to exactly one versioned model card.
+The model registry is the approval boundary for every synthetic forward model. A model cannot generate Heimdall Electra synthetic data merely because it implements the ForwardModel interface. It must resolve to exactly one versioned model card.
 
 ## Required model card
 

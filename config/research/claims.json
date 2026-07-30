@@ -29,7 +29,7 @@
       "status": "prohibited",
       "evidence_classes": [],
       "evidence_references": [],
-      "limitation": "No approved observed Heimdall instrument data, time alignment, independent review, or scientific validation exists."
+      "limitation": "No approved observed Heimdall Electra instrument data, time alignment, independent review, or scientific validation exists."
     },
     {
       "claim_id": "operational-safety-use",

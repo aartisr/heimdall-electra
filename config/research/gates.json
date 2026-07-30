@@ -37,7 +37,7 @@
         "docs/SOURCE_REGISTRY_GOVERNANCE.md",
         "docs/CONTEXT_ALIGNMENT_GOVERNANCE.md"
       ],
-      "limitation": "The NOAA context time contract is not approved; no observed Heimdall data source exists."
+      "limitation": "The NOAA context time contract is not approved; no observed Heimdall Electra data source exists."
     }
   ]
 }

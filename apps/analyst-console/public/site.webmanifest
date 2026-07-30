@@ -1,0 +1,8 @@
+{
+  "name": "Project HEIMDALL ELECTRA Research Evidence Console",
+  "short_name": "ELECTRA",
+  "description": "A read-only research status and evidence-boundary console.",
+  "display": "browser",
+  "background_color": "#091617",
+  "theme_color": "#091617"
+}

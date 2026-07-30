@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Every statement that could be used to describe Heimdall’s capability is placed in a versioned, machine-checked claim registry. The registry separates what the repository can support from what remains unsupported or prohibited. The TanStack evidence console displays the derived read-only view so the caveats travel with the work.
+Every statement that could be used to describe Heimdall Electra’s capability is placed in a versioned, machine-checked claim registry. The registry separates what the repository can support from what remains unsupported or prohibited. The TanStack evidence console displays the derived read-only view so the caveats travel with the work.
 
 ## Claim statuses
 

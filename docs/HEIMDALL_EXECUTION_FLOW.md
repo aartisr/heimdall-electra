@@ -1,8 +1,8 @@
-# Project Heimdall — detailed implementation and evidence flow
+# Project Heimdall Electra — detailed implementation and evidence flow
 
 ## Purpose and current position
 
-This document is the authoritative execution map for Project Heimdall. It orders work so that scientific evidence, safety, provenance, and independent validation always precede scale, automation, or operational claims.
+This document is the authoritative execution map for Project Heimdall Electra. It orders work so that scientific evidence, safety, provenance, and independent validation always precede scale, automation, or operational claims.
 
 Current position: the project has a reproducible synthetic vertical slice, L0-to-L1 calibration lineage, a transparent candidate detector with plug-in gates, stratified synthetic fixtures, pre-registered experiment controls, a tamper-evident local experiment ledger, a content-addressed ingestion boundary, and contract foundations for timing/association, trade budgets, HIL validation, and a read-only TanStack console. It has **no validated physical wake model, hardware measurement, external observed data, empirical multi-node association, orbital track, operational traffic product, or maneuver authority**. The authoritative implementation status and remaining work are maintained in [the stage delivery ledger](STAGE_DELIVERY_LEDGER.md).
 
@@ -234,7 +234,7 @@ Complete only when an independently held, sufficiently diverse locked corpus exi
 
 ### Stage 1B — source authorization and verification readiness
 
-Status: source registry, verification, custody, signed-frame, time-quality, and observed-provenance controls are implemented. No approved observed Heimdall source or reviewed time contract exists.
+Status: source registry, verification, custody, signed-frame, time-quality, and observed-provenance controls are implemented. No approved observed Heimdall Electra source or reviewed time contract exists.
 
 Implement in this order:
 

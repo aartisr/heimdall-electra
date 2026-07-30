@@ -6,13 +6,13 @@ The first live connector is NOAA Space Weather Prediction Center’s one-minute 
 
 - Source URL: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json
 - Use: geomagnetic-context stratification, experiment annotations, and future noise/environment analysis.
-- Not used for: debris labels, Heimdall signal truth, candidate promotion, orbital state, collision risk, or maneuver advice.
+- Not used for: debris labels, Heimdall Electra signal truth, candidate promotion, orbital state, collision risk, or maneuver advice.
 
 NOAA SWPC publishes the product through its official services directory, and its K-index documentation explains the index as a geomagnetic-disturbance measure. The connector uses HTTPS, an exact host allowlist, redirect-host validation, response-size limit, captured final URL, retrieval timestamp, and SHA-256 content address.
 
 ## Authenticity limit
 
-HTTPS protects the retrieval channel to the configured official host. The current endpoint does not provide a separately verified content signature through this connector, so the result is classified as EXTERNAL_CONTEXT. It is not OBSERVED Heimdall evidence and cannot be promoted by code path or policy.
+HTTPS protects the retrieval channel to the configured official host. The current endpoint does not provide a separately verified content signature through this connector, so the result is classified as EXTERNAL_CONTEXT. It is not OBSERVED Heimdall Electra evidence and cannot be promoted by code path or policy.
 
 ## NASA SPDF/CDAWeb next candidate
 

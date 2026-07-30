@@ -12,7 +12,7 @@ The exporter refuses to package a result unless:
 
 1. the result digest belongs to the supplied sealed plan;
 2. the experiment ledger verifies and the result is its latest event;
-3. every artifact is an existing regular file inside the independent NASA/Heimdall repository;
+3. every artifact is an existing regular file inside the independent project repository;
 4. each artifact has a path, SHA-256 digest, and byte count; and
 5. when a corpus is named, its one-time consumption event is bound to the same plan and corpus.
 
@@ -20,7 +20,7 @@ The verifier recomputes the bundle digest and each artifact digest. Any change t
 
 ## Synthetic reference example
 
-Run from the NASA repository after choosing an output directory inside the repository:
+Run from the project repository after choosing an output directory inside the repository:
 
 ```sh
 PYTHONPATH=src python3 scripts/run_pre_registered_experiment.py \

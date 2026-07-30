@@ -1,4 +1,4 @@
-# HEIMDALL: An evidence-governed protocol for falsifiable passive ionospheric plasma-wake sensing research
+# HEIMDALL ELECTRA: An evidence-governed protocol for falsifiable passive ionospheric plasma-wake sensing research
 
 **Manuscript type:** Registered-report / research-protocol draft  
 **Version:** 0.1.0  
@@ -7,7 +7,7 @@
 
 ## Abstract
 
-Small orbital debris remains difficult to observe, particularly in regimes where conventional methods are incomplete or uncertain. Project HEIMDALL investigates a narrow, high-risk hypothesis: under specified plasma, trajectory, instrument, timing, and interference conditions, a charged hypervelocity object may produce a passive electromagnetic/electrostatic signature that is distinguishable from plausible background processes. This manuscript defines a falsifiable protocol for testing that hypothesis without conflating synthetic outputs, correlated signals, or software behavior with observed debris detection.
+Small orbital debris remains difficult to observe, particularly in regimes where conventional methods are incomplete or uncertain. Project HEIMDALL ELECTRA investigates a narrow, high-risk hypothesis: under specified plasma, trajectory, instrument, timing, and interference conditions, a charged hypervelocity object may produce a passive electromagnetic/electrostatic signature that is distinguishable from plausible background processes. This manuscript defines a falsifiable protocol for testing that hypothesis without conflating synthetic outputs, correlated signals, or software behavior with observed debris detection.
 
 The protocol establishes: (1) explicit evidence classes; (2) preregistered hypotheses, primary metrics, and stopping rules; (3) immutable lineage from raw-like evidence through calibrated observations and candidates; (4) numerical-model admission, convergence, limiting-relation, and cross-implementation comparison controls; (5) locked-corpus separation; (6) blinded laboratory and flight validation requirements; (7) uncertainty-aware multi-node association; (8) independent-review and alternate-explanation procedures; and (9) strict boundaries prohibiting operational safety or maneuver use without separately governed evidence. The current repository implements synthetic research controls only. The protocol is designed so that a null result, ambiguity, or failure of assumptions is preserved as a scientifically informative result.
 
@@ -183,7 +183,7 @@ Independent challenge is mandatory at each material gate. Reviewers receive the 
 
 ## 8. Security, safety, and responsible use
 
-HEIMDALL separates scientific evidence from operational control. The analyst console is read-only; it has no secret, command, privileged calculation, approval, release, or evidence-mutation path. Future hardware/ground systems must use least privilege, authenticated encryption, signed artifacts/configuration/commands, replay protection, schema/range/time validation, key rotation, fault containment, audit events, and recovery tests.
+HEIMDALL ELECTRA separates scientific evidence from operational control. The analyst console is read-only; it has no secret, command, privileged calculation, approval, release, or evidence-mutation path. Future hardware/ground systems must use least privilege, authenticated encryption, signed artifacts/configuration/commands, replay protection, schema/range/time validation, key rotation, fault containment, audit events, and recovery tests.
 
 No output is authorized for collision avoidance, maneuvering, or safety decisions under this protocol. Any future operational use would require a separate safety case, authoritative governance, validated product definition, and approval process outside this research foundation.
 
@@ -210,7 +210,7 @@ The physical-wake-performance claim is unsupported. The observed-debris-detectio
 
 ## 11. Discussion
 
-The most scientifically valuable feature of this protocol is not its ambition; it is the ability to fail honestly. A high-risk hypothesis should be capable of earning support, losing support, or being narrowed without losing the evidence that produced the decision. By binding claim, data, model, calibration, detector, uncertainty, reviewer, and limitation together, HEIMDALL makes a future result easier to challenge and harder to overstate.
+The most scientifically valuable feature of this protocol is not its ambition; it is the ability to fail honestly. A high-risk hypothesis should be capable of earning support, losing support, or being narrowed without losing the evidence that produced the decision. By binding claim, data, model, calibration, detector, uncertainty, reviewer, and limitation together, HEIMDALL ELECTRA makes a future result easier to challenge and harder to overstate.
 
 The protocol does not remove the need for deep plasma physics, meticulous instrumentation, authorized operations, or independent replication. It makes those investments more valuable by ensuring that their outputs remain interpretable and reviewable.
 

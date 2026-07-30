@@ -1,4 +1,4 @@
-# HEIMDALL stage delivery ledger
+# HEIMDALL ELECTRA stage delivery ledger
 
 ## Authority and counting rule
 

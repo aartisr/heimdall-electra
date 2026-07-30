@@ -22,19 +22,21 @@ export function EvidenceConsole() {
     getCoreRowModel: getCoreRowModel(),
   });
 
-  if (status.isLoading) return <p className="content">Loading research status…</p>;
-  if (status.isError) return <p className="content error">{status.error.message}</p>;
+  if (status.isLoading) return <p className="content" aria-live="polite">Loading research status…</p>;
+  if (status.isError) return <section className="content error" role="alert"><h2>Research status is unavailable</h2><p>{status.error.message}</p><button type="button" onClick={() => status.refetch()}>Try again</button></section>;
   const data = status.data!;
 
   return (
-    <section className="content" aria-labelledby="status-heading">
+    <section className="content" id="evidence-status" aria-labelledby="status-heading" tabIndex={-1}>
       <div className="notice" role="status">
         <strong>{data.scientificStatus}</strong>
         <span>{data.limitation}</span>
       </div>
 
       <h2 id="status-heading">Evidence sources</h2>
+      <div className="table-wrap" tabIndex={0} aria-label="Evidence sources table">
       <table>
+        <caption>Declared source purpose, evidence class, status, and limitation.</caption>
         <thead>
           {table.getHeaderGroups().map((group) => (
             <tr key={group.id}>
@@ -50,12 +52,13 @@ export function EvidenceConsole() {
           {table.getRowModel().rows.map((row) => (
             <tr key={row.id}>
               {row.getVisibleCells().map((cell) => (
-                <td key={cell.id}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</td>
+                <td key={cell.id} data-label={String(cell.column.columnDef.header)}>{flexRender(cell.column.columnDef.cell, cell.getContext())}</td>
               ))}
             </tr>
           ))}
         </tbody>
       </table>
+      </div>
 
       <h2>Gate status</h2>
       <ul className="gates">
@@ -77,7 +80,7 @@ export function EvidenceConsole() {
           </li>
         ))}
       </ul>
-      <p className="snapshot">Snapshot generated: {data.generatedAt}. This UI is read-only and is not the system of record.</p>
+      <p className="snapshot">Snapshot generated: <time dateTime={data.generatedAt}>{data.generatedAt}</time>. This UI is read-only and is not the system of record.</p>
     </section>
   );
 }

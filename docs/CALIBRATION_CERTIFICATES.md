@@ -8,7 +8,7 @@ Future laboratory and flight observations may enter L1 calibration only through 
 
 The calibration adapter rejects a certificate that is revoked or superseded, belongs to another sensor, or is outside its validity interval. A successful L1 record preserves the original L0 digest and carries the certificate ID, scale, uncertainty, and `certificate_traceable` quality flag.
 
-Certificate references are required to resolve inside the independent Heimdall repository. The initial registry is intentionally empty: no laboratory or flight certificate has been admitted.
+Certificate references are required to resolve inside the independent Heimdall Electra repository. The initial registry is intentionally empty: no laboratory or flight certificate has been admitted.
 
 ## Scientific boundary
 

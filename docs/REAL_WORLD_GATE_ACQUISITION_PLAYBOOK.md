@@ -1,4 +1,4 @@
-# HEIMDALL real-world gate-acquisition playbook
+# HEIMDALL ELECTRA real-world gate-acquisition playbook
 
 ## Purpose and truth boundary
 
@@ -11,7 +11,7 @@ is a successful outcome when it is supported by preserved evidence.
 
 The project currently has research-only software and contract foundations. It
 has no admitted physical wake model, calibrated hardware result, observed
-HEIMDALL measurement, debris track, flight authorization, or operational
+HEIMDALL ELECTRA measurement, debris track, flight authorization, or operational
 traffic product. Do not present any repository output as one.
 
 This playbook complements the [stage delivery ledger](STAGE_DELIVERY_LEDGER.md).
@@ -180,9 +180,9 @@ products; it is useful contextual information, not debris ground truth.
 The existing NOAA connector remains context-only until its time contract and
 source approval are formally reviewed.
 
-### Observed HEIMDALL sources
+### Observed HEIMDALL ELECTRA sources
 
-There is no public shortcut to authentic HEIMDALL observations before hardware
+There is no public shortcut to authentic HEIMDALL ELECTRA observations before hardware
 exists. Obtain them through an approved instrument campaign or written data
 agreement. Require, at minimum:
 
