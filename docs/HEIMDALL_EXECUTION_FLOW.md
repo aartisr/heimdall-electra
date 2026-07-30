@@ -4,7 +4,7 @@
 
 This document is the authoritative execution map for Project Heimdall. It orders work so that scientific evidence, safety, provenance, and independent validation always precede scale, automation, or operational claims.
 
-Current position: the project has a reproducible synthetic vertical slice, L0-to-L1 calibration lineage, a transparent candidate detector with plug-in gates, a stratified synthetic corpus, pre-registered experiment controls, a tamper-evident local experiment ledger, and a content-addressed ingestion boundary. It has **no validated physical wake model, hardware measurement, external observed data, multi-node association, orbital track, operational traffic product, or maneuver authority**.
+Current position: the project has a reproducible synthetic vertical slice, L0-to-L1 calibration lineage, a transparent candidate detector with plug-in gates, stratified synthetic fixtures, pre-registered experiment controls, a tamper-evident local experiment ledger, a content-addressed ingestion boundary, and contract foundations for timing/association, trade budgets, HIL validation, and a read-only TanStack console. It has **no validated physical wake model, hardware measurement, external observed data, empirical multi-node association, orbital track, operational traffic product, or maneuver authority**. The authoritative implementation status and remaining work are maintained in [the stage delivery ledger](STAGE_DELIVERY_LEDGER.md).
 
 The next implementation stage is Source Authorization and Verification Readiness. It will define approved source records and a replaceable signature-verification port. It must not ingest or label data as observed until an authorized source, terms, integrity method, and independent review are available.
 
@@ -216,25 +216,25 @@ Stable ports enable replacement without rewriting science logic:
 
 ### Stage 0 — claims, governance, and contracts
 
-Status: implemented in documentation and initial contracts.
+Status: partial foundation implemented; formal approval and independent review remain open. See the stage delivery ledger.
 
 Complete only when claims, metrics, stop conditions, product levels, data classification, provenance, and security boundaries are approved.
 
 ### Stage 1 — synthetic vertical slice and transparent baseline
 
-Status: implemented as research reference only.
+Status: synthetic vertical-slice milestone complete; the broader physics/synthetic-truth stage remains in progress. See the stage delivery ledger.
 
 Complete only when deterministic synthetic generation, L0/L1 lineage, detector, gate interfaces, stratified evaluation, and replay work without external data.
 
 ### Stage 1A — locked synthetic validation
 
-Status: initial fixture-level implementation complete; scientifically incomplete.
+Status: fixture-level controls are implemented; an independently held, sufficiently diverse locked corpus is not yet available.
 
 Complete only when an independently held, sufficiently diverse locked corpus exists; the pre-registered policy is evaluated once; performance intervals and strata are reported; and any tuning uses a new corpus.
 
 ### Stage 1B — source authorization and verification readiness
 
-Status: next implementation stage.
+Status: source registry, verification, custody, signed-frame, time-quality, and observed-provenance controls are implemented. No approved observed Heimdall source or reviewed time contract exists.
 
 Implement in this order:
 
@@ -250,7 +250,7 @@ Gate: an independent reviewer can reproduce the source authorization, byte verif
 
 ### Stage 2 — laboratory and hardware-in-the-loop
 
-Not started.
+Partial foundation implemented: HIL test-plan/result, calibration, and ingestion contracts exist. No hardware or laboratory measurement has been performed.
 
 Use controlled injection, traceable timing, sensor transfer-function characterization, clock/error budgets, EMC/self-noise tests, and replay through unchanged software. Compare to controlled truth and publish discrepancies.
 
@@ -258,7 +258,7 @@ Gate: hardware behavior, calibration, and uncertainty are bounded within pre-reg
 
 ### Stage 3 — multi-node association and kinematic inference
 
-Not started.
+Partial foundation implemented: timing, association, covariance, solver-neutral TDOA, and inference-lifecycle contracts exist. No empirical association or localization result exists.
 
 Add a separate association context that consumes L2 records, verifies time/ephemeris/attitude quality, produces TDOA/FDOA residuals, tracks ambiguity, and propagates covariance. An association score is not object identity.
 
@@ -266,7 +266,7 @@ Gate: empirical uncertainty coverage agrees with stated confidence and false ass
 
 ### Stage 4 — demonstrator and independent flight validation
 
-Not started.
+Partial foundation implemented: coverage, instrument, and transport budget contracts exist. No validated demonstrator or flight campaign exists.
 
 Use pre-registered observing campaigns, preserved raw data, blind analysis, independent references, red-team alternate-explanation review, and publication of negative results.
 
@@ -274,7 +274,7 @@ Gate: independent evidence supports only the precise, bounded claim earned by th
 
 ### Stage 5 — governed advisory product
 
-Not started.
+Partial foundation implemented: durable evidence, audit, lifecycle, and read-only TanStack status-console controls exist. No validated product, authorization service, or advisory release exists.
 
 Only after validated L3/L4 products: build standards adapters, role-specific TanStack views, release/retraction state machine, SLOs, audit, and safety-authority approval. The browser never becomes the system of record or spacecraft command path.
 
@@ -316,4 +316,3 @@ flowchart LR
 - Do not remove high-score rejected candidates from evidence or metrics.
 - Do not derive orbital tracks, collision probabilities, or maneuver recommendations from L2 candidates.
 - Do not promote a local hash chain into a claim of external audit, cryptographic signing, or non-repudiation.
-
