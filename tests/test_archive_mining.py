@@ -1,8 +1,15 @@
 """Tests for archive_mining module."""
 import math
+import sys
 import unittest
+from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from hashlib import sha256
+
+# Ensure scripts/ is on path before integration tests import mine_swarm_archive
+_SCRIPTS_DIR = str(Path(__file__).parent.parent / "scripts")
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
 
 from heimdall.archive_mining import (
     TleObject,
@@ -202,9 +209,6 @@ class TestBuildStandardProtocol(unittest.TestCase):
 
 class TestAnalysisPipelineIntegration(unittest.TestCase):
     """Integration tests for the full analysis pipeline using synthetic data."""
-
-    def setUp(self):
-        sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent / "scripts"))
 
     def test_synthetic_pipeline_with_signal(self):
         """Pipeline with injected signal should produce SIGNAL_DETECTED verdict."""
