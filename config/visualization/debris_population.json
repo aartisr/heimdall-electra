@@ -1,0 +1,13 @@
+{
+  "model": "synthetic_power_law_v1",
+  "altitude_bin_km": 50,
+  "inclination_bin_deg": 10,
+  "altitude_min_km": 200,
+  "altitude_max_km": 2000,
+  "size_power_law_index": 2.5,
+  "sub_cm_uncertainty_fraction": 0.5,
+  "fragmentation_events": "builtin_catalog_v1",
+  "_source_reference": "NASA ORDEM 3.0 methodology; ESA MASTER 2009 extrapolation parameters",
+  "_evidence_class": "synthetic",
+  "_limitation": "Power-law extrapolation. Sub-cm counts carry +/-50% uncertainty. No direct debris detection claimed."
+}

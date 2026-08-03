@@ -1,0 +1,10 @@
+{
+  "spacecraft_cross_section_m2": 10.0,
+  "mission_duration_years": 5.0,
+  "risk_threshold": 0.0001,
+  "altitude_min_km": 200,
+  "altitude_max_km": 2000,
+  "_source_reference": "NASA-STD-8719.14 conjunction screening thresholds; ESA collision probability standards",
+  "_evidence_class": "synthetic",
+  "_limitation": "Model-derived risk field. Safe corridors are not operationally certified launch windows."
+}

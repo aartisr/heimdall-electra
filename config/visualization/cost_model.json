@@ -1,0 +1,25 @@
+{
+  "analysis_period_years": 10,
+  "maneuver_reduction_fraction": 0.20,
+  "insurance_reduction_fraction": 0.05,
+  "delay_days_saved_per_launch": 0.5,
+  "propellant_value_fraction": 0.02,
+  "uncertainty_low_multiplier": 0.5,
+  "uncertainty_high_multiplier": 3.0,
+  "fleet": [
+    { "mission_class": "crewed_leo",       "annual_count": 4  },
+    { "mission_class": "iss_resupply",     "annual_count": 4  },
+    { "mission_class": "nasa_science_leo", "annual_count": 6  },
+    { "mission_class": "nasa_science_sso", "annual_count": 4  },
+    { "mission_class": "commercial_leo",   "annual_count": 30 },
+    { "mission_class": "commercial_geo",   "annual_count": 10 }
+  ],
+  "_source_references": [
+    "NASA OIG Report IG-21-001 ISS maneuver statistics",
+    "NASA Cost Estimating Handbook 2015",
+    "Marsh 2024 space insurance market report",
+    "AON space insurance market report 2024"
+  ],
+  "_evidence_class": "synthetic",
+  "_limitation": "Modelled estimates. Actual savings depend on HEIMDALL detection performance not yet demonstrated. Uncertainty x0.5 to x3.0 of central estimate."
+}

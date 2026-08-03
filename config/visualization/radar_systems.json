@@ -1,0 +1,41 @@
+{
+  "systems": [
+    {
+      "system_id": "space_fence",
+      "name": "Space Fence (AFSSS L-band)",
+      "frequency_hz": 1335000000,
+      "min_detectable_rcs_dbsm": -25,
+      "source_reference": "Sridharan & Pensa 1998; AFRL Space Fence IOC 2020; Goldstein et al. Lincoln Lab Journal Vol 21 No 1 2015"
+    },
+    {
+      "system_id": "haystack",
+      "name": "Haystack LRIR (X-band)",
+      "frequency_hz": 9500000000,
+      "min_detectable_rcs_dbsm": -50,
+      "source_reference": "Stansbery et al. NASA TM-104804 1994; Stokely et al. Haystack HAX 2003-2005"
+    },
+    {
+      "system_id": "goldstone",
+      "name": "Goldstone Solar System Radar (X-band)",
+      "frequency_hz": 8510000000,
+      "min_detectable_rcs_dbsm": -60,
+      "source_reference": "Goldstone radar specifications NASA/JPL; Ostro Rev. Mod. Phys. 1993"
+    },
+    {
+      "system_id": "tira",
+      "name": "TIRA Ku-band DLR/Fraunhofer FHR",
+      "frequency_hz": 16700000000,
+      "min_detectable_rcs_dbsm": -55,
+      "source_reference": "Mehrholz et al. ESA Bulletin 109 2002"
+    },
+    {
+      "system_id": "eiscat_uhf",
+      "name": "EISCAT UHF 930 MHz ionospheric baseline",
+      "frequency_hz": 930000000,
+      "min_detectable_rcs_dbsm": -35,
+      "source_reference": "EISCAT Scientific Association specs; Markkanen et al. 2005"
+    }
+  ],
+  "_evidence_class": "synthetic",
+  "_limitation": "Published radar specifications used verbatim. RCS thresholds are indicative minimum values from open-domain literature."
+}

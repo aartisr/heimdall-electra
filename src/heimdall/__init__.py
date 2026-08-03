@@ -68,7 +68,7 @@ from .observability import (
 from .configuration import (
     Configuration,
     ConfigurationError as ConfigError,
-    ConfigurationField,
+    ConfigField,
     ConfigurationManager,
     ConfigurationSchema,
     ConfigConstraint,
@@ -97,6 +97,54 @@ from .validation import (
     Validator,
     VerificationChain,
     validate_decorator,
+)
+
+# Visualization & mission risk modules
+from .debris_population import (
+    DebrisCloud,
+    DebrisPopulationBin,
+    DebrisPopulationSnapshot,
+    FragmentationEvent,
+    OrbitalShell,
+    PopulationModelConfig,
+    PopulationSource,
+    SizeRegime,
+    SyntheticPowerLawModel,
+    FRAGMENTATION_EVENT_CATALOG,
+)
+from .radar_detectability import (
+    DetectionGapAnalysis,
+    IonosphericWakeCurve,
+    RadarDetectionCurve,
+    RadarDetectabilityAnalyzer,
+    RadarSystem,
+    RcsPoint,
+    ScatteringRegime,
+    WakeSignalPoint,
+    REFERENCE_RADAR_SYSTEMS,
+    compute_rcs_sphere,
+    rcs_to_dbsm,
+    compute_wake_relative_signal_db,
+)
+from .trajectory_risk import (
+    AscentType,
+    LaunchProfile,
+    RiskFieldCell,
+    RiskLevel,
+    SafeLaunchCorridor,
+    TrajectoryRiskEngine,
+    TrajectoryRiskReport,
+    TrajectoryRiskScore,
+    REFERENCE_LAUNCH_PROFILES,
+)
+from .cost_savings import (
+    CostSavingsCalculator,
+    CostSavingsEstimate,
+    FleetwideSavingsScenario,
+    MissionClass,
+    MissionCostProfile,
+    NASA_COMMERCIAL_FLEET,
+    REFERENCE_MISSION_COST_PROFILES,
 )
 
 __all__ = [
@@ -173,7 +221,7 @@ __all__ = [
     "get_metrics_collector",
     # Configuration
     "Configuration",
-    "ConfigurationField",
+    "ConfigField",
     "ConfigurationManager",
     "ConfigurationSchema",
     "ConfigConstraint",
