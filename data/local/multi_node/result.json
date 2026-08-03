@@ -1,0 +1,28 @@
+{
+  "result_id": "mnd-0f62193902",
+  "event_time_utc": "2026-07-30T00:00:00+00:00",
+  "n_nodes": 4,
+  "n_valid_pairs": 6,
+  "tdoa_solution": {
+    "solution_id": "tdoa-f1566212b7",
+    "position_m": [
+      -707914079.8326478,
+      -50939810.39920186,
+      11959743619.22451
+    ],
+    "position_uncertainty_m": 4655.515435438765,
+    "rms_residual_m": 534.7074147696632,
+    "n_measurements": 6,
+    "convergence": "max_iterations_reached",
+    "evidence_class": "synthetic",
+    "limitation": "Gauss-Newton linearised TDOA solver. Accuracy limited by timing synchronisation uncertainty and receiver geometry. Assumes straight-line (free-space) propagation. Ionospheric refraction and multi-path not modelled. Results are EvidenceClass.SYNTHETIC until real measurements are made."
+  },
+  "estimated_altitude_km": null,
+  "estimated_velocity_km_s": 7.66,
+  "overall_snr_db": 15.512471379579493,
+  "is_well_localised": false,
+  "gdop": 0.0,
+  "baseline_km": 3.0,
+  "evidence_class": "synthetic",
+  "limitation": "Multi-node pipeline result. ANALYTIC_UNVALIDATED wake model used. TDOA accuracy limited by timing synchronisation and receiver geometry. No real ionospheric measurements used. EvidenceClass: synthetic."
+}

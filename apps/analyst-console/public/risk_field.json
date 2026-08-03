@@ -1,0 +1,5259 @@
+{
+  "report_id": "risk-313d30de6c",
+  "generated_at": "2026-07-30T00:00:00+00:00",
+  "population_snapshot_id": "pop-8f1475c6313d",
+  "risk_threshold": 0.0001,
+  "spacecraft_cross_section_m2": 10.0,
+  "mission_duration_years": 5.0,
+  "evidence_class": "synthetic",
+  "limitation": "Model-based flux computation using synthetic power-law population. Actual collision probability requires validated flux data from real observations. Results are for comparative analysis only. Safe corridors are not operationally certified launch windows.",
+  "risk_field": [
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 225.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.4190675485932571e-08,
+      "flux_full": 0.00014334001308340493,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.8436325602261108
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 275.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.2840254166877415e-08,
+      "flux_full": 0.00012969940733962876,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -3.8870620084164362
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 325.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.161834242728283e-08,
+      "flux_full": 0.00011735687685798388,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -3.9304914566067612
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 375.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.0512710963760241e-08,
+      "flux_full": 0.00010618889344494221,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -3.9739209047970863
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 425.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 9.512294245007141e-09,
+      "flux_full": 9.608368416881714e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.017350352987411
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 475.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 8.607079764250579e-09,
+      "flux_full": 8.69401126986951e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.060779801177737
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 525.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 7.788007830714049e-09,
+      "flux_full": 7.866666709804261e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.104209249368062
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 575.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 7.0468808971871345e-09,
+      "flux_full": 7.118054394248725e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.147638697558387
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 625.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 6.3762815162177336e-09,
+      "flux_full": 6.440681959531533e-05,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -4.191068145748712
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 675.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 5.769498103804866e-09,
+      "flux_full": 5.827770034653296e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.234497593939038
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 725.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 5.220457767610161e-09,
+      "flux_full": 5.2731843910630234e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.277927042129362
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 775.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 4.723665527410147e-09,
+      "flux_full": 4.77137454923699e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.321356490319688
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 825.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 4.274149319487267e-09,
+      "flux_full": 4.3173182276140885e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.364785938510013
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 875.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 3.867410234545012e-09,
+      "flux_full": 3.906471077913917e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.408215386700338
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 925.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 3.4993774911115535e-09,
+      "flux_full": 3.53472120377178e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.451644834890663
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 975.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 3.1663676937905328e-09,
+      "flux_full": 3.198348007497817e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.495074283080989
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1025.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 2.865047968601901e-09,
+      "flux_full": 2.89398495308478e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.538503731271314
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1075.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 2.592402606458915e-09,
+      "flux_full": 2.61858587278415e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.581933179461639
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1125.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 2.3457028809379764e-09,
+      "flux_full": 2.3693944800354504e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.625362627651964
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1175.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 2.1224797382674305e-09,
+      "flux_full": 2.1439167836239318e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.66879207584229
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1225.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.9204990862075415e-09,
+      "flux_full": 1.9398961269782377e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.712221524032614
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1275.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.7377394345044515e-09,
+      "flux_full": 1.7552906027929464e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.75565097222294
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1325.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.5723716631362761e-09,
+      "flux_full": 1.5882526169339525e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.799080420413265
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1375.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.422740715865136e-09,
+      "flux_full": 1.4371103970953737e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.84250986860359
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1425.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.2873490358780423e-09,
+      "flux_full": 1.3003512611404107e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.885939316793915
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1475.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.1648415777349697e-09,
+      "flux_full": 1.1766064776700929e-05,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -4.929368764984241
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1525.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 1.0539922456186434e-09,
+      "flux_full": 1.0646375672993916e-05,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -4.972798213174565
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1575.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 9.536916221554962e-10,
+      "flux_full": 9.633239075392666e-06,
+      "dark_risk_fraction": 0.9999009999009998,
+      "log10_flux_full": -5.016227661364891
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1625.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 8.62935864993705e-10,
+      "flux_full": 8.716515172301414e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.059657109555216
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1675.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 7.808166600115317e-10,
+      "flux_full": 7.887029082776483e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.103086557745541
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1725.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 7.06512130604296e-10,
+      "flux_full": 7.136479031233994e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.146516005935866
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1775.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 6.392786120670758e-10,
+      "flux_full": 6.457353260489532e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.189945454126192
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1825.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 5.784432087483846e-10,
+      "flux_full": 5.842854851567433e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.233374902316517
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1875.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 5.233970594843238e-10,
+      "flux_full": 5.286833697851155e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.276804350506842
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1925.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 4.735892439114093e-10,
+      "flux_full": 4.783724952749145e-06,
+      "dark_risk_fraction": 0.9999009999009999,
+      "log10_flux_full": -5.320233798697167
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 5.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 15.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 25.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 35.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 45.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 55.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 65.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 75.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 85.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 95.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 105.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 115.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 125.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 135.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 145.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 155.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 165.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    },
+    {
+      "altitude_km": 1975.0,
+      "inclination_deg": 175.0,
+      "flux_tracked": 4.285212686704019e-10,
+      "flux_full": 4.32849333483973e-06,
+      "dark_risk_fraction": 0.999900999901,
+      "log10_flux_full": -5.3636632468874925
+    }
+  ],
+  "profile_scores": [
+    {
+      "profile_id": "iss-resupply-400km",
+      "cumulative_collision_probability": 0.004792662573556372,
+      "collision_probability_tracked_only": 4.756145991491323e-07,
+      "collision_probability_full_population": 0.004792662573556372,
+      "dark_risk_fraction": 0.999900761926831,
+      "expected_encounters_per_year": 0.0009608368416881714,
+      "peak_flux_altitude_km": 225.0,
+      "risk_level": "high",
+      "evidence_class": "synthetic",
+      "limitation": "Poisson flux model using synthetic population estimate. Risk is indicative and not operationally validated."
+    },
+    {
+      "profile_id": "sun-sync-600km",
+      "cumulative_collision_probability": 0.0032151612434170307,
+      "collision_probability_tracked_only": 3.1881402495770317e-07,
+      "collision_probability_full_population": 0.0032151612434170307,
+      "dark_risk_fraction": 0.9999008404242212,
+      "expected_encounters_per_year": 0.0006440681959531533,
+      "peak_flux_altitude_km": 225.0,
+      "risk_level": "high",
+      "evidence_class": "synthetic",
+      "limitation": "Poisson flux model using synthetic population estimate. Risk is indicative and not operationally validated."
+    },
+    {
+      "profile_id": "leo-megaconstellation-550km",
+      "cumulative_collision_probability": 0.0035527013666555307,
+      "collision_probability_tracked_only": 3.523439827679553e-07,
+      "collision_probability_full_population": 0.0035527013666555307,
+      "dark_risk_fraction": 0.9999008236419545,
+      "expected_encounters_per_year": 0.0007118054394248725,
+      "peak_flux_altitude_km": 225.0,
+      "risk_level": "high",
+      "evidence_class": "synthetic",
+      "limitation": "Poisson flux model using synthetic population estimate. Risk is indicative and not operationally validated."
+    },
+    {
+      "profile_id": "polar-science-800km",
+      "cumulative_collision_probability": 0.002156330884807822,
+      "collision_probability_tracked_only": 2.1370744318627288e-07,
+      "collision_probability_full_population": 0.002156330884807822,
+      "dark_risk_fraction": 0.9999008930193914,
+      "expected_encounters_per_year": 0.00043173182276140884,
+      "peak_flux_altitude_km": 225.0,
+      "risk_level": "high",
+      "evidence_class": "synthetic",
+      "limitation": "Poisson flux model using synthetic population estimate. Risk is indicative and not operationally validated."
+    },
+    {
+      "profile_id": "debris-belt-crossing-750km",
+      "cumulative_collision_probability": 0.0023828437844080064,
+      "collision_probability_tracked_only": 2.3618324851426564e-07,
+      "collision_probability_full_population": 0.0023828437844080064,
+      "dark_risk_fraction": 0.9999008817740971,
+      "expected_encounters_per_year": 0.00047713745492369895,
+      "peak_flux_altitude_km": 225.0,
+      "risk_level": "high",
+      "evidence_class": "synthetic",
+      "limitation": "Poisson flux model using synthetic population estimate. Risk is indicative and not operationally validated."
+    }
+  ],
+  "safe_corridors": []
+}

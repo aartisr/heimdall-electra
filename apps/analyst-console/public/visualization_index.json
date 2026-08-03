@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-30T00:00:00+00:00",
+  "evidence_class": "synthetic",
+  "limitation": "All visualization data is synthetic modelled output. No physical debris detection, radar measurement, or cost saving has been observed. Results are for research planning only.",
+  "files": {
+    "debris_population": "debris_population.json",
+    "rcs_analysis": "rcs_analysis.json",
+    "risk_field": "risk_field.json",
+    "cost_savings": "cost_savings.json"
+  },
+  "summary": {
+    "total_tracked_objects": 133272,
+    "estimated_sub_cm_total": 2355938136,
+    "fragmentation_events": 6,
+    "debris_clouds": 6,
+    "radar_systems_analysed": 5,
+    "detection_gap_mm": 0.1,
+    "detection_gap_max_cm": 0.29,
+    "safe_corridors": 0,
+    "annual_savings_usd": 158721000,
+    "ten_year_savings_usd": 1587210000
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "scenario_id": "fleet-37e4fafd89",
+  "generated_at": "2026-07-30T00:00:00+00:00",
+  "fleet": [
+    {
+      "mission_class": "crewed_leo",
+      "annual_count": 4
+    },
+    {
+      "mission_class": "iss_resupply",
+      "annual_count": 4
+    },
+    {
+      "mission_class": "nasa_science_leo",
+      "annual_count": 6
+    },
+    {
+      "mission_class": "nasa_science_sso",
+      "annual_count": 4
+    },
+    {
+      "mission_class": "commercial_leo",
+      "annual_count": 30
+    },
+    {
+      "mission_class": "commercial_geo",
+      "annual_count": 10
+    }
+  ],
+  "annual_savings_usd": 158721000.0,
+  "ten_year_savings_usd": 1587210000.0,
+  "uncertainty_low_usd": 793605000.0,
+  "uncertainty_high_usd": 4761630000.0,
+  "evidence_class": "synthetic",
+  "limitation": "Fleet-wide synthetic estimate.  Individual mission counts are illustrative.  All savings are modelled, not observed.  Treat as order-of-magnitude planning reference only.",
+  "per_mission_estimates": [
+    {
+      "estimate_id": "savings-crewed_leo-10yr",
+      "mission_class": "crewed_leo",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 15520000.0,
+      "reduced_insurance_usd": 4000000.0,
+      "launch_delay_reduction_usd": 25000000.0,
+      "propellant_preserved_usd": 155200000.0,
+      "total_savings_usd": 199720000.0,
+      "uncertainty_low_usd": 99860000.0,
+      "uncertainty_high_usd": 599160000.0,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 97%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: NASA Crew Dragon/Orion cost references, public domain; NASA Cost Estimating Handbook 2015"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    },
+    {
+      "estimate_id": "savings-iss_resupply-10yr",
+      "mission_class": "iss_resupply",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 5820000.000000001,
+      "reduced_insurance_usd": 750000.0,
+      "launch_delay_reduction_usd": 10000000.0,
+      "propellant_preserved_usd": 34920000.00000001,
+      "total_savings_usd": 51490000.00000001,
+      "uncertainty_low_usd": 25745000.000000004,
+      "uncertainty_high_usd": 154470000.00000003,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 97%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: NASA OIG Report IG-21-001; ISS SSA maneuver statistics 2015-2024; NASA Cost Estimating Handbook 2015"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    },
+    {
+      "estimate_id": "savings-nasa_science_leo-10yr",
+      "mission_class": "nasa_science_leo",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 1900000.0,
+      "reduced_insurance_usd": 750000.0,
+      "launch_delay_reduction_usd": 2500000.0,
+      "propellant_preserved_usd": 11400000.0,
+      "total_savings_usd": 16550000.0,
+      "uncertainty_low_usd": 8275000.0,
+      "uncertainty_high_usd": 49650000.0,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 95%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: NASA Science Mission Directorate cost references; Iridium NEXT insurance cost analogues"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    },
+    {
+      "estimate_id": "savings-nasa_science_sso-10yr",
+      "mission_class": "nasa_science_sso",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 2850000.0,
+      "reduced_insurance_usd": 1200000.0,
+      "launch_delay_reduction_usd": 3500000.0,
+      "propellant_preserved_usd": 19000000.0,
+      "total_savings_usd": 26550000.0,
+      "uncertainty_low_usd": 13275000.0,
+      "uncertainty_high_usd": 79650000.0,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 95%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: NASA Cost Estimating Handbook 2015; ESA SSA annual report 2024"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    },
+    {
+      "estimate_id": "savings-commercial_leo-10yr",
+      "mission_class": "commercial_leo",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 135000.0,
+      "reduced_insurance_usd": 10000.0,
+      "launch_delay_reduction_usd": 500000.0,
+      "propellant_preserved_usd": 54000.0,
+      "total_savings_usd": 699000.0,
+      "uncertainty_low_usd": 349500.0,
+      "uncertainty_high_usd": 2097000.0,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 90%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: Satellite insurance market reports (Marsh 2024); SpaceX Starlink operations public references"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    },
+    {
+      "estimate_id": "savings-commercial_geo-10yr",
+      "mission_class": "commercial_geo",
+      "analysis_period_years": 10,
+      "avoided_maneuvers_usd": 3040000.0,
+      "reduced_insurance_usd": 2250000.0,
+      "launch_delay_reduction_usd": 7500000.0,
+      "propellant_preserved_usd": 22800000.0,
+      "total_savings_usd": 35590000.0,
+      "uncertainty_low_usd": 17795000.0,
+      "uncertainty_high_usd": 106770000.0,
+      "maneuver_reduction_fraction": 0.2,
+      "insurance_reduction_fraction": 0.05,
+      "delay_days_saved_per_launch": 0.5,
+      "assumptions": [
+        "Maneuver false-alarm rate: 95%",
+        "Reduction from HEIMDALL density maps: 20%",
+        "Insurance premium reduction: 5%",
+        "Launch delay reduction: 0.5 days/launch",
+        "Propellant value: 2% of spacecraft value per avoided maneuver",
+        "Cost sources: Intelsat/SES insurance cost references, public; AON space insurance market report 2024"
+      ],
+      "evidence_class": "synthetic",
+      "limitation": "Modelled estimates based on publicly available cost data and assumed improvement fractions.  Actual savings depend on HEIMDALL detection performance not yet demonstrated.  Uncertainty range is \u00d70.5 to \u00d73.0 of central estimate.  No actual cost savings have been realised."
+    }
+  ]
+}

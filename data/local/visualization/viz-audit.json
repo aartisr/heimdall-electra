@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-30T00:00:00+00:00",
+  "stages_completed": [
+    "debris_population",
+    "rcs_analysis",
+    "trajectory_risk",
+    "cost_savings"
+  ],
+  "evidence_class": "synthetic",
+  "config_artifacts": [
+    "config/visualization/debris_population.json",
+    "config/visualization/radar_systems.json",
+    "config/visualization/trajectory_risk.json",
+    "config/visualization/cost_model.json"
+  ],
+  "output_files": [
+    "apps/analyst-console/public/debris_population.json",
+    "apps/analyst-console/public/rcs_analysis.json",
+    "apps/analyst-console/public/risk_field.json",
+    "apps/analyst-console/public/cost_savings.json",
+    "apps/analyst-console/public/visualization_index.json"
+  ]
+}
