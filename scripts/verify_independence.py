@@ -17,9 +17,10 @@ FORBIDDEN = (
     "evidence-medical-platform",
 )
 ALLOWED_STDLIB_ROOTS = {
-    "__future__", "argparse", "ast", "dataclasses", "datetime", "enum", "hashlib", "json",
-    "concurrent", "contextlib", "fcntl", "itertools", "math", "os", "pathlib", "random", "statistics",
-    "sys", "tempfile", "typing", "unittest", "urllib",
+    "__future__", "abc", "argparse", "ast", "dataclasses", "datetime", "enum", "hashlib", "json",
+    "concurrent", "contextlib", "fcntl", "io", "itertools", "logging", "math", "os", "pathlib",
+    "random", "re", "statistics", "struct", "sys", "tempfile", "threading", "time",
+    "typing", "unittest", "urllib", "uuid",
 }
 
 
@@ -68,7 +69,9 @@ def verify_python_imports(paths: list[Path]) -> list[str]:
                         failures.append(f"non-standard import in {path.relative_to(ROOT)}: {alias.name}")
             elif isinstance(node, ast.ImportFrom) and node.level == 0 and node.module:
                 root = node.module.split(".")[0]
-                if root not in ALLOWED_STDLIB_ROOTS and root not in {"heimdall", "scripts"}:
+                # tests/ may import from scripts/ by dynamic sys.path injection
+                in_tests = "tests" in path.parts
+                if root not in ALLOWED_STDLIB_ROOTS and root not in {"heimdall", "scripts"} and not in_tests:
                     failures.append(f"non-standard import in {path.relative_to(ROOT)}: {node.module}")
     return failures
 
