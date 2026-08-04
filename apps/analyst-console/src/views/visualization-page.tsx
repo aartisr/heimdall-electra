@@ -59,13 +59,13 @@ function DebrisGlobePanel() {
       <h3 className="viz-card-title">Orbital Debris Cloud Distribution</h3>
       <div className="viz-globe-stat-row">
         <span className="viz-stat-inline">
-          <strong style={{ color: "#d4e8e8" }}>{q.data!.total_tracked_objects.toLocaleString()}</strong> tracked
+          <strong className="viz-stat-inline-emphasis">{q.data!.total_tracked_objects.toLocaleString()}</strong> tracked
         </span>
         <span className="viz-stat-inline">
-          <strong style={{ color: "#ff6b35" }}>{(q.data!.estimated_sub_cm_total / 1e9).toFixed(1)}B</strong> sub-cm (estimated)
+          <strong className="viz-stat-inline-emphasis is-accent-orange">{(q.data!.estimated_sub_cm_total / 1e9).toFixed(1)}B</strong> sub-cm (estimated)
         </span>
         <span className="viz-stat-inline">
-          <strong style={{ color: "#c77dff" }}>{q.data!.events.length}</strong> fragmentation events
+          <strong className="viz-stat-inline-emphasis is-accent-purple">{q.data!.events.length}</strong> fragmentation events
         </span>
       </div>
       <DebrisGlobe population={q.data!} />
@@ -103,7 +103,7 @@ export function VisualizationPage() {
     <section className="content viz-page" id="visualization" aria-labelledby="viz-heading" tabIndex={-1}>
       <h2 id="viz-heading">Debris Visualization &amp; Mission Risk Analysis</h2>
 
-      <div className="notice" role="status" style={{ marginBottom: "1.5rem" }}>
+      <div className="notice viz-notice-spaced" role="status">
         <strong>All panels show synthetic modelled data (EvidenceClass.SYNTHETIC).</strong>
         <span>
           No physical debris detection has been made. Sub-centimetre counts are

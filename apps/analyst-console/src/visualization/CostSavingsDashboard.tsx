@@ -122,13 +122,13 @@ export function CostSavingsDashboard({ savings, className }: CostSavingsDashboar
       {/* Summary statistics */}
       <div className="viz-stat-row">
         <div className="viz-stat">
-          <span className="viz-stat-value" style={{ color: "#a3d977" }}>
+          <span className="viz-stat-value is-accent-green">
             {formatUsd(savings.annual_savings_usd)}/yr
           </span>
           <span className="viz-stat-label">Annual fleet savings (central estimate)</span>
         </div>
         <div className="viz-stat">
-          <span className="viz-stat-value" style={{ color: "#a3d977" }}>
+          <span className="viz-stat-value is-accent-green">
             {formatUsd(savings.ten_year_savings_usd)}
           </span>
           <span className="viz-stat-label">10-year cumulative savings</span>
@@ -142,13 +142,13 @@ export function CostSavingsDashboard({ savings, className }: CostSavingsDashboar
       </div>
 
       {/* Chart */}
-      <div style={{ overflowX: "auto" }}>
+      <div className="viz-scroll-x">
         <svg
           viewBox={`0 0 ${W} ${totalH}`}
           role="img"
           aria-labelledby="cost-chart-title"
           aria-describedby="cost-chart-desc"
-          style={{ width: "100%", maxWidth: W, display: "block" }}
+          className="viz-svg-responsive viz-svg-cost"
         >
           <title id="cost-chart-title">Fleet-wide cost savings per mission class</title>
           <desc id="cost-chart-desc">

@@ -220,26 +220,26 @@ export function RadarDetectionChart({ analysis, className }: RadarDetectionChart
 
       <div className="viz-stat-row" aria-label="Key statistics">
         <div className="viz-stat">
-          <span className="viz-stat-value" style={{ color: "#ff6b35" }}>{gapMm} mm – {gapCm} cm</span>
+          <span className="viz-stat-value is-accent-orange">{gapMm} mm – {gapCm} cm</span>
           <span className="viz-stat-label">Radar-dark size range</span>
         </div>
         <div className="viz-stat">
-          <span className="viz-stat-value" style={{ color: "#ff6b35" }}>{undetected}%</span>
+          <span className="viz-stat-value is-accent-orange">{undetected}%</span>
           <span className="viz-stat-label">Population undetected by all radars</span>
         </div>
         <div className="viz-stat">
-          <span className="viz-stat-value" style={{ color: "#5df5d4" }}>D² vs D⁶</span>
+          <span className="viz-stat-value is-accent-teal">D² vs D⁶</span>
           <span className="viz-stat-label">Wake vs radar scaling — 12 dB/octave HEIMDALL advantage</span>
         </div>
       </div>
 
-      <div style={{ overflowX: "auto" }}>
+      <div className="viz-scroll-x">
         <svg
           viewBox={`0 0 ${CHART.w} ${CHART.h + 20}`}
           role="img"
           aria-labelledby="rcs-chart-title"
           aria-describedby="rcs-chart-desc"
-          style={{ width: "100%", maxWidth: CHART.w, display: "block" }}
+          className="viz-svg-responsive viz-svg-radar"
         >
           <title id="rcs-chart-title">Radar cross-section vs. object diameter — detection gap proof</title>
           <desc id="rcs-chart-desc">

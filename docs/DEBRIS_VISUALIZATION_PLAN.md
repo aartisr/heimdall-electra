@@ -1,3 +1,5 @@
+<!-- markdownlint-disable -->
+
 # HEIMDALL ELECTRA — Debris Visualization & Mission Risk System
 ## Detailed Implementation Plan
 

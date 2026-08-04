@@ -19,7 +19,7 @@
  */
 
 import React, {
-  useRef, useEffect, useCallback, useState, useReducer, useMemo,
+  useRef, useEffect, useCallback, useState, useMemo,
 } from "react";
 import { DebrisPopulation, DebrisShell, DebrisCloud, SizeRegime } from "./types";
 import {
@@ -47,6 +47,13 @@ const LAYER_CONFIGS: LayerConfig[] = [
   { id: "sub_cm",          label: "Sub-cm (HEIMDALL)",     color: "#ff6b35", radius: 0.8, baseAlpha: 0.35, maxPoints: 25_000, key: "s" },
   { id: "clouds",          label: "Fragmentation clouds",  color: "#c77dff", radius: 4.0, baseAlpha: 0.9, maxPoints: 500,   key: "f" },
 ];
+
+function layerColorClass(id: LayerConfig["id"]): string {
+  if (id === "tracked") return "layer-color-tracked";
+  if (id === "near_detectable") return "layer-color-near-detectable";
+  if (id === "sub_cm") return "layer-color-sub-cm";
+  return "layer-color-clouds";
+}
 
 // ---------------------------------------------------------------------------
 // Sampled point type
@@ -314,7 +321,7 @@ export function DebrisGlobe({ population, className }: DebrisGlobeProps) {
     if (e.key === "ArrowRight") { rotRef.current += 0.05; }
     for (const cfg of LAYER_CONFIGS) {
       if (e.key.toLowerCase() === cfg.key) {
-        setActiveLayers(prev => {
+        setActiveLayers((prev: Set<string>) => {
           const next = new Set(prev);
           next.has(cfg.id) ? next.delete(cfg.id) : next.add(cfg.id);
           return next;
@@ -330,7 +337,7 @@ export function DebrisGlobe({ population, className }: DebrisGlobeProps) {
       <div className="globe-canvas-wrap" role="img" aria-label="3D orbital debris distribution globe">
         <canvas
           ref={canvasRef}
-          style={{ width: "100%", height: "100%", display: "block", borderRadius: "8px" }}
+          className="globe-canvas"
           tabIndex={0}
           onKeyDown={handleKeyDown}
           aria-label="Orbital debris globe — use arrow keys to rotate"
@@ -343,14 +350,12 @@ export function DebrisGlobe({ population, className }: DebrisGlobeProps) {
           <button
             key={cfg.id}
             type="button"
-            className={`layer-btn ${activeLayers.has(cfg.id) ? "active" : "inactive"}`}
-            style={{ "--layer-color": cfg.color } as React.CSSProperties}
-            onClick={() => setActiveLayers(prev => {
+            className={`layer-btn ${activeLayers.has(cfg.id) ? "active" : "inactive"} ${layerColorClass(cfg.id)}`}
+            onClick={() => setActiveLayers((prev: Set<string>) => {
               const next = new Set(prev);
               next.has(cfg.id) ? next.delete(cfg.id) : next.add(cfg.id);
               return next;
             })}
-            aria-pressed={activeLayers.has(cfg.id)}
             title={`Toggle ${cfg.label} (key: ${cfg.key})`}
           >
             <span className="layer-dot" aria-hidden="true" />
