@@ -4,6 +4,8 @@
 
 > A reproducible research platform built to ask one difficult question honestly: can passive electromagnetic sensing detect an ionospheric plasma-wake signature associated with small, charged orbital debris? The repository does not assume that the effect exists. It supplies the contracts, synthetic reference path, tests, and evidence controls required to find out.
 
+📖 **Scientific Monograph:** For mathematical physics derivations (ion-acoustic kinetic shock, plasma-induced RCS modifications, non-linear hyperbola TDOA solvers, 2D Gaussian $P_c$ conjunction probability, and SHA-256 audit chain formulas), see **[Scientific Evaluation & Theoretical Foundations](docs/NOBEL_GRADE_SCIENTIFIC_EVALUATION.md)**.
+
 Space is not empty; it is an environment of motion, plasma, radio energy, and uncertainty. Small debris is particularly hard to characterize. HEIMDALL ELECTRA begins before any promise of a new sensor or a safer orbit: with a falsifiable hypothesis, a precise record of what the software did, and a refusal to let a plausible simulation become a physical claim.
 
 ---
