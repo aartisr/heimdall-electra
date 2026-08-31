@@ -1,0 +1,6 @@
+{
+  "name": "HEIMDALL ELECTRA Evaluation Suite",
+  "description": "Interactive Space Situational Awareness (SSA) Analyst Console, TDOA solver visualizer, radar detectability modeler, and 10/10 research evaluation hub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
