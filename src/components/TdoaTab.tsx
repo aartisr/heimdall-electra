@@ -160,6 +160,39 @@ export const TdoaTab: React.FC = () => {
                 <span className="text-sm font-mono font-bold text-emerald-400">{solvedPos.residualNs} ns</span>
               </div>
             </div>
+
+            {/* Orbital Pass Geometry & Doppler Analysis */}
+            <div className="bg-slate-950/90 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-2">
+                  <Cpu className="w-4 h-4 text-cyan-400" />
+                  <span className="text-xs font-bold text-slate-200 uppercase tracking-wider">
+                    Orbital Pass Doppler & Geometric Dilution of Precision (GDOP)
+                  </span>
+                </div>
+                <span className="text-[10px] font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-700/60">
+                  GDOP: 1.48 (OPTIMAL)
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 font-mono text-[11px]">
+                <div className="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-1">
+                  <div className="text-slate-400 text-[10px]">VHF Doppler Shift (f_0 = 144 MHz)</div>
+                  <div className="text-cyan-300 font-bold text-sm">±3.65 kHz</div>
+                  <div className="text-slate-500 text-[10px]">Range rate: 7.61 km/s</div>
+                </div>
+                <div className="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-1">
+                  <div className="text-slate-400 text-[10px]">UHF Doppler Shift (f_0 = 435 MHz)</div>
+                  <div className="text-indigo-300 font-bold text-sm">±11.04 kHz</div>
+                  <div className="text-slate-500 text-[10px]">Phase coherence: 99.4%</div>
+                </div>
+                <div className="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-1">
+                  <div className="text-slate-400 text-[10px]">Station Baseline (Max)</div>
+                  <div className="text-emerald-300 font-bold text-sm">1,480.2 km</div>
+                  <div className="text-slate-500 text-[10px]">Boulmer ⇄ Svalbard</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

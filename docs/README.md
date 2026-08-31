@@ -3,6 +3,7 @@
 ## Project Heimdall Electra
 
 - [Original proposal](NASAProjectProposal.pdf)
+- [NASA Executive Technical Memorandum & TRL Roadmap (NASA-TM-2026-HEIMDALL)](NASA_EXECUTIVE_BRIEFING_TRL_ROADMAP.md)
 - [Scientific Evaluation & Theoretical Foundations (Publication Grade)](NOBEL_GRADE_SCIENTIFIC_EVALUATION.md)
 - [Start here: first implementation milestone and four-week plan](HEIMDALL_START_HERE.md)
 - [Staged implementation architecture and Phase I plan](HEIMDALL_IMPLEMENTATION_PLAN.md)

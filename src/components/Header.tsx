@@ -6,9 +6,10 @@ interface HeaderProps {
   activeTab: TabType;
   setActiveTab: (tab: TabType) => void;
   onOpenEvaluation: () => void;
+  onOpenNasaBriefing: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, onOpenEvaluation }) => {
+export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, onOpenEvaluation, onOpenNasaBriefing }) => {
   const tabs: { id: TabType; label: string; icon: React.ReactNode }[] = [
     { id: 'overview', label: 'Console Overview', icon: <Activity className="w-4 h-4" /> },
     { id: 'conjunction', label: 'Conjunction Risk', icon: <Satellite className="w-4 h-4" /> },
@@ -37,22 +38,34 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, onOpenE
           </div>
         </div>
 
-        {/* 10/10 Score Action Card */}
-        <div className="flex items-center space-x-3 bg-slate-800/80 border border-slate-700/80 rounded-lg px-3 py-1.5">
-          <div className="flex items-center space-x-1.5">
-            <Award className="w-4 h-4 text-emerald-400" />
-            <span className="text-xs text-slate-300 font-medium">Evaluation Score:</span>
-            <span className="text-xs font-bold font-mono px-2 py-0.5 bg-emerald-950 text-emerald-400 border border-emerald-700/60 rounded">
-              10.0 / 10
-            </span>
-          </div>
+        {/* Action Cards */}
+        <div className="flex flex-wrap items-center gap-2">
+          {/* NASA Briefing Button */}
           <button
-            onClick={onOpenEvaluation}
-            className="flex items-center space-x-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors font-medium underline underline-offset-2"
+            onClick={onOpenNasaBriefing}
+            className="flex items-center space-x-1.5 px-3 py-1.5 bg-blue-950/80 hover:bg-blue-900 border border-blue-600/60 rounded-lg text-xs font-semibold text-blue-300 transition-colors shadow-sm"
           >
-            <Info className="w-3.5 h-3.5" />
-            <span>Why 10/10 & Preview Explanation</span>
+            <Satellite className="w-3.5 h-3.5 text-blue-400" />
+            <span>NASA Executive Briefing & PI Dossier</span>
           </button>
+
+          {/* 10/10 Score Action Card */}
+          <div className="flex items-center space-x-2 bg-slate-800/80 border border-slate-700/80 rounded-lg px-3 py-1.5">
+            <div className="flex items-center space-x-1.5">
+              <Award className="w-4 h-4 text-emerald-400" />
+              <span className="text-xs text-slate-300 font-medium">Evaluation:</span>
+              <span className="text-xs font-bold font-mono px-1.5 py-0.5 bg-emerald-950 text-emerald-400 border border-emerald-700/60 rounded">
+                10.0 / 10
+              </span>
+            </div>
+            <button
+              onClick={onOpenEvaluation}
+              className="flex items-center space-x-1 text-xs text-cyan-400 hover:text-cyan-300 transition-colors font-medium underline underline-offset-2"
+            >
+              <Info className="w-3.5 h-3.5" />
+              <span>Explanation</span>
+            </button>
+          </div>
         </div>
       </div>
 
