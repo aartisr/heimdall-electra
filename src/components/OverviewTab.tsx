@@ -10,6 +10,40 @@ interface OverviewTabProps {
 export const OverviewTab: React.FC<OverviewTabProps> = ({ setActiveTab, onOpenEvaluation }) => {
   return (
     <div className="space-y-6">
+      {/* Canonical Domain & NASA Mission Directives Banner */}
+      <div className="bg-slate-900/90 border border-blue-800/60 rounded-xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-md">
+        <div className="flex items-center space-x-3">
+          <div className="p-2 bg-blue-950 border border-blue-500/50 rounded-lg text-blue-400">
+            <ShieldCheck className="w-5 h-5" />
+          </div>
+          <div>
+            <div className="flex items-center space-x-2">
+              <span className="text-xs font-bold text-slate-200">Canonical Production URL:</span>
+              <a
+                href="https://nasa.ai-aarti.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xs font-mono font-bold text-cyan-400 hover:text-cyan-300 underline underline-offset-2 flex items-center space-x-1"
+              >
+                <span>https://nasa.ai-aarti.com</span>
+                <ArrowUpRight className="w-3.5 h-3.5" />
+              </a>
+            </div>
+            <p className="text-[11px] text-slate-400">
+              Pioneered by Aarti S. Ravikumar (@aartisr) • Open Research Protocol for NASA Space Debris Tracking
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center space-x-2 shrink-0">
+          <span className="px-2.5 py-1 text-[10px] font-mono font-bold bg-blue-950 text-blue-300 border border-blue-700/60 rounded">
+            NASA ODPO / CARA Target
+          </span>
+          <span className="px-2.5 py-1 text-[10px] font-mono font-bold bg-emerald-950 text-emerald-300 border border-emerald-700/60 rounded">
+            TRL 3 → 4 Active
+          </span>
+        </div>
+      </div>
+
       {/* Hero / Quick Status Banner */}
       <div className="bg-gradient-to-r from-slate-900 via-slate-900 to-cyan-950 border border-slate-800 rounded-xl p-6 text-slate-100 shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />

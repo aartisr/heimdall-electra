@@ -1,11 +1,15 @@
 # Project HEIMDALL ELECTRA
 
-**Stewardship:** Aarti S Ravikumar — [@aartisr](https://github.com/aartisr)
+**Stewardship & Principal Investigator:** Aarti S Ravikumar — [@aartisr](https://github.com/aartisr)  
+**Canonical Production Application:** [https://nasa.ai-aarti.com](https://nasa.ai-aarti.com)  
+**Project Research Wiki:** [Official Wiki Documentation](wiki/Home.md)  
 
 > A reproducible research platform built to ask one difficult question honestly: can passive electromagnetic sensing detect an ionospheric plasma-wake signature associated with small, charged orbital debris? The repository does not assume that the effect exists. It supplies the contracts, synthetic reference path, tests, and evidence controls required to find out.
 
+🌐 **Canonical Web Platform:** [https://nasa.ai-aarti.com](https://nasa.ai-aarti.com)  
 📖 **Scientific Monograph:** For mathematical physics derivations (ion-acoustic kinetic shock, plasma-induced RCS modifications, non-linear hyperbola TDOA solvers, 2D Gaussian $P_c$ conjunction probability, and SHA-256 audit chain formulas), see **[Scientific Evaluation & Theoretical Foundations](docs/NOBEL_GRADE_SCIENTIFIC_EVALUATION.md)**.  
-🚀 **NASA Executive Briefing:** For mission architecture, TRL 3 → 5 maturation roadmap, and NASA ODPO/CARA alignment, see **[NASA Executive Technical Memorandum](docs/NASA_EXECUTIVE_BRIEFING_TRL_ROADMAP.md)**.
+🚀 **NASA Executive Briefing:** For mission architecture, TRL 3 → 5 maturation roadmap, and NASA ODPO/CARA alignment, see **[NASA Executive Technical Memorandum](docs/NASA_EXECUTIVE_BRIEFING_TRL_ROADMAP.md)**.  
+📚 **Research Wiki:** For comprehensive deep-dives into mission fit, plasma physics, and Aarti S. Ravikumar's research vision, visit the **[HEIMDALL ELECTRA Wiki](wiki/Home.md)**.
 
 Space is not empty; it is an environment of motion, plasma, radio energy, and uncertainty. Small debris is particularly hard to characterize. HEIMDALL ELECTRA begins before any promise of a new sensor or a safer orbit: with a falsifiable hypothesis, a precise record of what the software did, and a refusal to let a plausible simulation become a physical claim.
 

@@ -1,7 +1,13 @@
 # NASA documentation
 
+**Canonical Production URL:** [https://nasa.ai-aarti.com](https://nasa.ai-aarti.com)  
+**Project Research Wiki:** [Official Wiki Documentation](../wiki/Home.md)  
+**Principal Investigator:** Aarti S. Ravikumar ([@aartisr](https://github.com/aartisr))  
+
 ## Project Heimdall Electra
 
+- [Canonical Web Platform](https://nasa.ai-aarti.com)
+- [Official Research Wiki & Knowledge Base](../wiki/Home.md)
 - [Original proposal](NASAProjectProposal.pdf)
 - [NASA Executive Technical Memorandum & TRL Roadmap (NASA-TM-2026-HEIMDALL)](NASA_EXECUTIVE_BRIEFING_TRL_ROADMAP.md)
 - [Scientific Evaluation & Theoretical Foundations (Publication Grade)](NOBEL_GRADE_SCIENTIFIC_EVALUATION.md)

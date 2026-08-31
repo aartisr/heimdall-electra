@@ -243,8 +243,21 @@ export const NasaDossierModal: React.FC<NasaDossierModalProps> = ({ isOpen, onCl
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-3 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between text-xs text-slate-400">
-          <div>Technical Memorandum ID: <span className="font-mono text-slate-200">NASA-TM-2026-HEIMDALL-01</span></div>
+        <div className="px-6 py-3 border-t border-slate-800 bg-slate-950/60 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400">
+          <div className="flex items-center space-x-2">
+            <span>Canonical Site:</span>
+            <a
+              href="https://nasa.ai-aarti.com"
+              target="_blank"
+              rel="noreferrer"
+              className="font-mono text-cyan-400 font-bold hover:underline flex items-center space-x-1"
+            >
+              <span>https://nasa.ai-aarti.com</span>
+              <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
+            <span className="text-slate-600">|</span>
+            <span className="font-mono text-slate-300">NASA-TM-2026-HEIMDALL-01</span>
+          </div>
           <button
             onClick={onClose}
             className="px-4 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-lg transition-colors"
