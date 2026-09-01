@@ -63,31 +63,48 @@ Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
 ## 🛰️ Key Features & Interactive Modules
 
-### 1. 3D Rotating Orbital Debris Globe
+### 1. Executive Pitch & Grant Review Deck
+- **Interactive 6-Stage Narrative**: Seamless presentation mode designed for NASA review boards, DoD evaluators, and private investors.
+- **Embedded Visual Proofs & Speaker Notes**: Instant walkthrough covering the $0.1\text{ mm}$ threat, $D^2$ wake scaling, CubeSat SWaP-C budget, ionospheric robustness, $\$1.6\text{B}$ fleet value, and proposal milestones.
+
+### 2. Satellite Payload Engineering & SWaP-C Budget
+- **Interactive Form-Factor Sizing**: Full parametric budget for 3U CubeSat, 6U Constellation Sentinel, and ESPA Ring secondary hosted payloads.
+- **Subsystem Telemetry**: Real-time mass margins (&gt;31% reserve), power consumption (&lt;12 W average), S/X-Band downlink link budgets, deployable boom lengths ($0.5\text{ m} - 2.5\text{ m}$), and FPGA wavelet DSP compression.
+- **NASA GEVS & Class D Compliance**: Automated JSON export of complete payload specifications.
+
+### 3. Ionospheric Diurnal & Solar Activity Engine
+- **Atmospheric Model Integration**: Benchmarked against **IRI-2020** (International Reference Ionosphere) and **NRLMSISE-00** neutral atmosphere models.
+- **24/7 Detection Proof**: Models solar radio flux ($F_{10.7} = 70 - 220\text{ sfu}$), geomagnetic latitude, and diurnal day/eclipse phases, proving that supersonic Mach cone shock amplification ($M = 3 - 8$) maintains $\text{SNR} &gt; 12\text{ dB}$ even during orbital night.
+
+### 4. NASA & DoD Grant Alignment Dashboard
+- **Federal Solicitation Coverage**: Comprehensive alignment matrices for **NASA NIAC (Phase I/II)**, **NASA SBIR/STTR Subtopic Z1.03**, and **US Space Force Space Prime (SDA)**.
+- **Proposal Generation**: One-click download of formatted proposal packages, technical abstracts, requirements compliance tables, and TRL 2 ➔ 4 transition roadmaps.
+
+### 5. 3D Rotating Orbital Debris Globe
 - **Custom 3D HTML5 Canvas Engine**: Real-time vector-projected orbital mechanics simulating over 2,400 sub-cm particle swarms ($2.4\text{B}$ statistical cloud) and cataloged debris.
 - **Historical Breakup Clouds**: Visualizes concentrated fragmentation clusters from *Fengyun-1C*, *Iridium-33*, *Cosmos-2251*, *Cosmos-1408 ASAT*, and upper stage breakups.
 - **Interactive Controls**: 360° mouse drag rotation, zoom in/out, orbital propagation toggle, and dynamic layer filters for Tracked ($>10\text{ cm}$), Near-detectable ($1-10\text{ cm}$), Sub-cm (HEIMDALL domain), and Fragmentation clouds.
 
-### 2. Radar Detection Gap — Physics Proof
+### 6. Radar Detection Gap — Physics Proof
 - **$D^2$ vs $D^6$ Analytical Scaling Model**: Visualizes the Rayleigh-to-Mie scattering transition across radar cross sections ($\text{RCS}$) from $0.1\text{ mm}$ to $1\text{ m}$.
 - **Radar Comparisons**: Benchmarks published limits for **Space Fence**, **Haystack LRIR**, **Goldstone Solar System Radar**, and **TIRA** against HEIMDALL plasma wake detection.
 - **Detection Gap Isolation**: Highlights the $0.1\text{ mm} - 0.3\text{ cm}$ radar-dark regime where ~95% of lethal kinetic impactors remain invisible to terrestrial tracking.
 
-### 3. Trajectory Risk Field — Safe Launch Corridors
+### 7. Trajectory Risk Field — Safe Launch Corridors
 - **2D Orbital Flux Heatmap**: Maps orbital inclination ($0^\circ - 180^\circ$) against orbital altitude ($200\text{ km} - 2000\text{ km}$).
 - **Mission Scoring**: Evaluates orbital insertion risk profiles for Crewed ISS Resupply, LEO Megaconstellations, Sun-Synchronous (SSO), and Polar Science corridors.
 - **Dual Population View**: Toggle between *Full population (HEIMDALL)* and *Tracked only (Radar)* to identify dark risk fractions.
 
-### 4. Fleet-Wide Cost Savings — HEIMDALL Economic Value
+### 8. Fleet-Wide Cost Savings — HEIMDALL Economic Value
 - **10-Year Cumulative Savings Engine**: Quantifies avoided collision avoidance maneuvers ($\Delta V$ conservation), launch window hold reductions, insurance risk credits, and mission life extensions.
 - **Mission Category Breakdown**: Granular economics for Crewed LEO ($\$200\text{M}$), ISS Resupply ($\$51\text{M}$), NASA Science SSO ($\$27\text{M}$), Commercial GEO ($\$36\text{M}$), and LEO Constellations.
 - **Uncertainty Bounds**: Full parametric sensitivity modeling across $\times 0.5$ to $\times 3.0$ uncertainty ranges.
 
-### 5. Multi-Station TDOA Triangulation & Conjunction Simulator
+### 9. Multi-Station TDOA Triangulation & Conjunction Simulator
 - **Plasma Wake Triangulation**: Interactive hyperbolic time-difference-of-arrival (TDOA) solver for multiple receiver craft.
 - **Probability of Collision ($\text{PoC}$)**: Covariance intersection and B-plane collision probability calculator.
 
-### 6. Elevation Engine & Governance Verification
+### 10. Elevation Engine & Governance Verification
 - **Scientific Falsifiability Matrix**: Claim verification framework distinguishing empirical evidence from synthetic modeling.
 - **6-Dimension Evaluation Framework**: Rigorous tracking across Physics Soundness, Algorithm Maturity, Engineering Feasibility, Commercial Viability, Testing Rigor, and Mission Architecture.
 

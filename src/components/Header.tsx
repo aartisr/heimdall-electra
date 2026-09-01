@@ -11,6 +11,9 @@ import {
   Activity,
   BookOpen,
   Orbit,
+  Cpu,
+  Waves,
+  Presentation,
 } from 'lucide-react';
 import { REPO_METADATA } from '../data/evaluationData';
 
@@ -22,8 +25,12 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, calculatedScore }) => {
   const tabs = [
-    { id: 'overview', label: 'Executive Scorecard', icon: ShieldCheck },
-    { id: 'debris_charts', label: 'Debris & ROI Charts', icon: Orbit, highlight: true },
+    { id: 'pitch_deck', label: 'Executive Pitch Deck', icon: Presentation, highlight: true, badge: 'NASA Pitch' },
+    { id: 'overview', label: 'Scorecard', icon: ShieldCheck },
+    { id: 'debris_charts', label: 'Debris & ROI Charts', icon: Orbit },
+    { id: 'payload_swapc', label: 'Payload & SWaP-C', icon: Cpu, badge: 'New' },
+    { id: 'ionospheric_sim', label: 'Ionospheric Physics', icon: Waves, badge: 'New' },
+    { id: 'grant_matrix', label: 'NASA & DoD Grants', icon: Award, badge: 'New' },
     { id: 'elevation_engine', label: '10/10 Elevation Engine', icon: Sparkles },
     { id: 'dimensions', label: '6-Dimension Evaluation', icon: Award },
     { id: 'physics_sim', label: 'Physics & TDOA Sim', icon: Zap },
@@ -148,11 +155,15 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, calcula
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
                 }`}
               >
-                {Icon && <Icon className={`w-3.5 h-3.5 ${tab.highlight ? 'text-cyan-400 animate-pulse' : ''}`} />}
+                {Icon && <Icon className={`w-3.5 h-3.5 ${tab.highlight ? 'text-amber-400 animate-pulse' : ''}`} />}
                 <span>{tab.label}</span>
-                {tab.highlight && (
-                  <span className="ml-1 text-[10px] font-bold bg-cyan-500 text-slate-950 px-1.5 py-0.2 rounded-full">
-                    10/10
+                {tab.badge && (
+                  <span className={`ml-1 text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
+                    tab.highlight
+                      ? 'bg-amber-400 text-slate-950 shadow-sm'
+                      : 'bg-cyan-950 text-cyan-400 border border-cyan-800/80'
+                  }`}>
+                    {tab.badge}
                   </span>
                 )}
               </button>

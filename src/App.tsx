@@ -6,6 +6,10 @@
 import React, { useState, useMemo } from 'react';
 import { Header } from './components/Header';
 import { ScorecardOverview } from './components/ScorecardOverview';
+import { ExecutivePitchDeck } from './components/ExecutivePitchDeck';
+import { PayloadSwapcBudget } from './components/PayloadSwapcBudget';
+import { IonosphericVariationEngine } from './components/IonosphericVariationEngine';
+import { NasaGrantAlignmentMatrix } from './components/NasaGrantAlignmentMatrix';
 import { ElevationEngine } from './components/ElevationEngine';
 import { DimensionDeepDives } from './components/DimensionDeepDives';
 import { PhysicsTdoaSim } from './components/PhysicsTdoaSim';
@@ -20,7 +24,7 @@ import { Footer } from './components/Footer';
 import { SCORE_DIMENSIONS, EVALUATION_PRESETS } from './data/evaluationData';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<string>('overview');
+  const [activeTab, setActiveTab] = useState<string>('pitch_deck');
   const [selectedDimensionId, setSelectedDimensionId] = useState<string | null>(null);
 
   // Custom weights state (defaults match baseline)
@@ -73,6 +77,8 @@ export default function App() {
       />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12">
+        {activeTab === 'pitch_deck' && <ExecutivePitchDeck onNavigateTab={setActiveTab} />}
+
         {activeTab === 'overview' && (
           <ScorecardOverview
             onSelectDimension={handleSelectDimension}
@@ -82,6 +88,12 @@ export default function App() {
         )}
 
         {activeTab === 'debris_charts' && <DebrisRiskEconomicCharts />}
+
+        {activeTab === 'payload_swapc' && <PayloadSwapcBudget />}
+
+        {activeTab === 'ionospheric_sim' && <IonosphericVariationEngine />}
+
+        {activeTab === 'grant_matrix' && <NasaGrantAlignmentMatrix />}
 
         {activeTab === 'elevation_engine' && <ElevationEngine />}
 
