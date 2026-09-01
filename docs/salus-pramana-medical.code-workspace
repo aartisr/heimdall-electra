@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "../../salus-pramana-medical"
+		},
+		{
+			"path": "../../laureate"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"yaml.customTags": [
+			"!And sequence",
+			"!And",
+			"!If sequence",
+			"!If",
+			"!Not sequence",
+			"!Not",
+			"!Equals sequence",
+			"!Equals",
+			"!Or sequence",
+			"!Or",
+			"!FindInMap sequence",
+			"!FindInMap",
+			"!Base64",
+			"!Cidr",
+			"!Ref",
+			"!Sub",
+			"!GetAtt",
+			"!GetAZs",
+			"!ImportValue",
+			"!Join sequence",
+			"!Join",
+			"!Select sequence",
+			"!Select",
+			"!Split sequence",
+			"!Split"
+		]
+	}
+}
